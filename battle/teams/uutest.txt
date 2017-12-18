@@ -1,0 +1,57 @@
+Toucannon @ Flyinium Z  
+Ability: Skill Link  
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Bullet Seed  
+- Beak Blast  
+- Roost  
+- Rock Blast  
+
+Dragalge @ Choice Specs  
+Ability: Adaptability  
+EVs: 240 HP / 252 SpA / 16 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Sludge Wave  
+- Focus Blast  
+- Dragon Pulse  
+- Draco Meteor  
+
+Talonflame  
+Ability: Gale Wings  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Acrobatics  
+- Bulk Up  
+- Flame Charge  
+- Roost  
+
+Muk-Alola @ Assault Vest  
+Ability: Poison Touch  
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Knock Off  
+- Poison Jab  
+- Shadow Sneak  
+- Brick Break  
+
+Sharpedo @ Sharpedonite  
+Ability: Speed Boost  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Waterfall  
+- Crunch  
+- Destiny Bond  
+- Protect  
+
+Serperior @ Leftovers  
+Ability: Contrary  
+EVs: 56 HP / 200 SpA / 252 Spe  
+Timid Nature  
+IVs: 1 Atk  
+- Leaf Storm  
+- Hidden Power [Fire]  
+- Substitute  
+- Leech Seed  
+
+

@@ -178,6 +178,46 @@ class Pokemon {
 		this.hp = this.hp || this.maxhp;
 	}
 
+    dataOnly() {
+        let pokemon = {};
+        pokemon.species = this.species;
+        pokemon.boosts = this.boosts;
+        pokemon.stats = this.stats;
+        pokemon.maxhp = this.maxhp;
+        pokemon.hp = this.hp;
+        pokemon.types = this.types;
+        pokemon.addedType = this.addedType;
+        pokemon.ability = this.ability;
+        pokemon.item = this.item;
+        pokemon.name = this.name;
+        pokemon.illusion = this.illusion;
+        pokemon.fainted = this.fainted
+        pokemon.lastItem = this.lastItem;
+        pokemon.ateBerry = this.ateBerry;
+        pokemon.status = this.status;
+        pokemon.position = this.position;
+        pokemon.lastMove = this.lastMove;
+        pokemon.isActive = this.isActive;
+        pokemon.activeTurns = this.activeTurns;
+        pokemon.speed = this.speed;
+        pokemon.abilityOrder = this.abilityOrder;
+        pokemon.level = this.level;
+        pokemon.gender = this.gender;
+        pokemon.happiness = this.happiness;
+        pokemon.fullname = this.fullname;
+        pokemon.details = this.details;
+        pokemon.id = this.id;
+        pokemon.canMegaEvo = this.canMegaEvo;
+        pokemon.trapped = this.trapped;
+        pokemon.faintQueued = this.faintQueued;
+        pokemon.string = this.toString();
+        pokemon.newlySwitched = this.newlySwitched;
+        pokemon.set = this.set;
+        pokemon.moves = this.moves;
+        pokemon.moveset = this.moveset;
+        return pokemon;
+    }
+
 	toString() {
 		let fullname = this.fullname;
 		if (this.illusion) fullname = this.illusion.fullname;

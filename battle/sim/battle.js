@@ -78,6 +78,21 @@ class Battle extends Dex.ModdedDex {
 		this.teamGenerator = null;
 	}
 
+    dataOnly() {
+        let battle = {};
+        battle.p1 = this.p1.dataOnly();
+        battle.p2 = this.p2.dataOnly();
+        battle.weather = this.weather;
+        battle.terrain = this.terrain;
+        battle.lastMove = this.lastMove;
+        battle.ended = this.ended;
+        battle.started = this.started;
+        battle.active = this.active;
+        battle.lastUpdate = this.lastUpdate;
+        battle.turn = this.turn;
+        return battle;
+    }
+
 	static logReplay(data, isReplay) {
 		if (isReplay === true) return data;
 		return '';

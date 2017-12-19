@@ -698,9 +698,17 @@ function importTeam(text, teams) {
 
 function log(battle, me, you) {
     /*
+    console.log("p1 request: " + battle.p1.currentRequest);
+    console.log("p2 request: " + battle.p2.currentRequest);
+    var teamstatus1 = ' ';
+    var teamstatus2 = ' ';
+    for (let i = 0; i<4; i++) {
+        teamstatus1 = teamstatus1 + battle.p1.pokemon[i].id + ' ' + battle.p1.pokemon[i].hp + ' | ';
+        teamstatus2 = teamstatus2 + battle.p2.pokemon[i].id + ' ' + battle.p2.pokemon[i].hp + ' | ';
+    }
     console.log("\nTurn: " + battle.turn); 
-    console.log("p1 request: " + battle.p1.pokemonLeft);
-    console.log("p2 request: " + battle.p2.pokemonLeft);
+    console.log(teamstatus1);
+    console.log(teamstatus2);
     */
     if (battle.ended) {
         if (battle.winner === me.name) me.wins++;
@@ -720,6 +728,125 @@ function writeLog(battle) {
     file.end();
 }
 
+function getState(battle) {
+    /*
+    /////////// THE BATTLE OBJECT ///////////////// 
+    'gen', //always = 7
+  'name',
+  'isBase',
+  'currentMod',
+  'parentMod',
+  'dataCache',  //caches are huge and may be necessary but maybe not
+  'formatsCache',
+  'templateCache',
+  'moveCache',
+  'itemCache',
+  'abilityCache',
+  'modsLoaded',
+  'getString',
+  'getId', // function
+  'ModdedDex',
+  'Data',
+  'runMove', //these might be useful but i think these are functions used by the class
+  'useMove',
+  'tryMoveHit',
+  'moveHit',
+  'calcRecoilDamage',
+  'zMoveTable',
+  'getZMove',
+  'getZMoveCopy',
+  'canZMove',
+  'canMegaEvo',
+  'runMegaEvo',
+  'isAdjacent',
+  'targetTypeChoices',
+  'log',
+  'sides',
+  'rated',
+  'weatherData',
+  'terrainData',
+  'pseudoWeather',
+  'format',
+  'formatid',
+  'formatData',
+  'effect',
+  'effectData',
+  'event',
+  'gameType',
+  'reportExactHP',
+  'replayExactHP',
+  'queue',
+  'faintQueue',
+  'messageLog',
+  'send',
+  'turn',
+  'p1',
+  'p2',
+  'lastUpdate',
+  'weather',
+  'terrain',
+  'ended',
+  'started',
+  'active',
+  'eventDepth',
+  'lastMove',
+  'activeMove',
+  'activePokemon',
+  'activeTarget',
+  'midTurn',
+  'currentRequest',
+  'lastMoveLine',
+  'reportPercentages',
+  'supportCancel',
+  'events',
+  'abilityOrder',
+  'prng',
+  'prngSeed',
+  'teamGenerator',
+  'activeTurns'
+
+    ////// SIDE OBJECT //////////////
+'getChoice',
+  'battle', [circular]
+  'n',
+  'name',
+  'avatar',
+  'pokemon',
+  'active',
+  'sideConditions',
+  'pokemonLeft',
+  'faintedLastTurn',
+  'faintedThisTurn',
+  'choice',
+  'currentRequest',
+  'maxTeamSize',
+  'foe',
+  'id',
+  'team'
+  
+  */
+
+// Note: cache should not be re-used by repeated calls to JSON.stringify.
+var cache = [];
+const state = JSON.stringify(battle, function(key, value) {
+    if (typeof value === 'object' && value !== null) {
+        if (cache.indexOf(value) !== -1) {
+            // Circular reference found, discard key
+            return;
+        }
+        // Store value in our collection
+        cache.push(value);
+    }
+    return value;
+});
+
+    
+
+
+  return state;
+}
+
 module.exports.log = log;
 module.exports.writeLog = writeLog;
 module.exports.importTeam = importTeam;
+module.exports.getState = getState;

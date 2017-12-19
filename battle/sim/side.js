@@ -106,6 +106,30 @@ class Side {
 		}
 	}
 
+    dataOnly() {
+        let side = {};
+        side.pokemonLeft = this.pokemonLeft;
+        side.faintedLastTurn = this.faintedLastTurn;
+        side.faintedThisTurn = this.faintedThisTurn;
+        side.currentRequest = this.currentRequest;
+        side.name = this.name;
+        side.sideConditions = this.sideConditions;
+        side.id = this.id;
+        side.team = this.team; //the bot itself should have this, but this should be used for guessing opponent moves
+
+        //the pokemon array has circular objects
+        side.pokemon = [];
+        for (let i = 0; i<this.pokemon.length; i++) {
+            side.pokemon.push(this.pokemon[i].dataOnly());
+        }
+        side.active = [];
+        for (let i = 0; i<this.active.length; i++) {
+            if (this.active[i])
+            side.active.push(this.active[i].dataOnly());
+        }
+        return side; 
+    }
+
 	getChoiceInner(side) {
 		if (side !== this && side !== true) return '';
 		return this.choice.actions.map(action => {
@@ -239,6 +263,7 @@ class Side {
 		return this.choice.actions.length >= this.active.length;
 	}
 	chooseMove(moveText, targetLoc, megaOrZ) {
+        //console.log(moveText + ' ' + targetLoc + ' ' + megaOrZ);
 		if (this.currentRequest !== 'move') {
 			return this.emitChoiceError(`Can't move: You need a ${this.currentRequest} response`);
 		}
@@ -263,6 +288,7 @@ class Side {
 			// Parse a one-based move index.
 			const moveIndex = +moveText - 1;
 			if (moveIndex < 0 || moveIndex >= requestMoves.length || !requestMoves[moveIndex]) {
+				console.log(`Can't move: Your ${pokemon.name} doesn't have a move ${moveIndex + 1}`);
 				return this.emitChoiceError(`Can't move: Your ${pokemon.name} doesn't have a move ${moveIndex + 1}`);
 			}
 			moveid = requestMoves[moveIndex].id;
@@ -316,13 +342,17 @@ class Side {
 			targetLoc = 0;
 		} else if (this.battle.targetTypeChoices(targetType)) {
 			if (!targetLoc && this.active.length >= 2) {
+				//console.log(`Can't move: ${move.name} needs a target ${targetType} ${targetLoc}`);
+                //console.log(pokemon.moveset);
 				return this.emitChoiceError(`Can't move: ${move.name} needs a target`);
 			}
 			if (!this.battle.validTargetLoc(targetLoc, pokemon, targetType)) {
+				//console.log(`Can't move: Invalid target for ${move.name} ${targetType} ${targetLoc}`);
 				return this.emitChoiceError(`Can't move: Invalid target for ${move.name}`);
 			}
 		} else {
 			if (targetLoc) {
+				 //console.log(`Can't move: You can't choose a target for ${move.name} ${targetType} ${targetLoc}`);
 				return this.emitChoiceError(`Can't move: You can't choose a target for ${move.name}`);
 			}
 		}
@@ -384,6 +414,7 @@ class Side {
 			mega: mega,
 			zmove: zMove,
 		});
+        //console.log(this.choice.actions.pokemon.id + ' picked ' + this.choice.actions.move + ' towards ' + this.choice.actions.targetLoc);
 
 		if (pokemon.maybeDisabled) {
 			this.choice.cantUndo = this.choice.cantUndo || pokemon.isLastActive();
@@ -402,6 +433,7 @@ class Side {
 		const index = this.getChoiceIndex();
 		if (index >= this.active.length) {
 			return this.emitChoiceError(`Can't switch: You do not have a Pokémon in slot ${index + 1}`);
+			console.log(`Can't switch: You do not have a Pokémon in slot ${index + 1}`);
 		}
 		const pokemon = this.active[index];
 		const autoChoose = !slotText;
@@ -418,6 +450,7 @@ class Side {
 			return this.emitChoiceError(`Can't switch: You do not have a Pokémon in slot ${slot + 1} to switch to`);
 		} else if (slot < this.active.length) {
 			return this.emitChoiceError(`Can't switch: You can't switch to an active Pokémon`);
+			console.log(`Can't switch: You can't switch to an active Pokémon`);
 		} else if (this.choice.switchIns.has(slot)) {
 			return this.emitChoiceError(`Can't switch: The Pokémon in slot ${slot + 1} can only switch in once`);
 		}
@@ -425,6 +458,7 @@ class Side {
 
 		if (targetPokemon.fainted) {
 			return this.emitChoiceError(`Can't switch: You can't switch to a fainted Pokémon`);
+			console.log(`Can't switch: You can't switch to a fainted Pokémon`);
 		}
 
 		if (this.currentRequest === 'move') {

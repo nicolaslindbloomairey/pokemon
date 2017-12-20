@@ -1,0 +1,10 @@
+//how the usage website calculated estimated usage 
+//items = full data object
+//number = pokemon usage rank
+//the items object is sorted by usage
+Usage(percentage) = Math.round(items[number][items[number].length - 1] / totalusage * 600000) / 1000 + "%"
+pokedexNo = items[number][0].substring(0, items[number][0].length - 2);
+
+
+
+

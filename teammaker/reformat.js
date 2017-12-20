@@ -1,6 +1,7 @@
 const fs = require('fs');
 const data = require('./data/vgc');
 const pokemonList = [];
+const totalusage = 150479;
 for (let i = 0; i<data.length; i++) {
     let pokemon = {};
     pokemon.id = data[i][0];
@@ -8,6 +9,7 @@ for (let i = 0; i<data.length; i++) {
     let type1 = data[i][2];
     let type2 = data[i][3];
     pokemon.types = [type1, type2];
+    pokemon.usage = Math.round(parseInt(data[i][data[i].length - 1]) / totalusage * 600000) / 100000;
 
     pokemon.items = {};
     let carryindex = 4;

@@ -6,6 +6,7 @@
             "Ground",
             "Flying"
         ],
+        "usage": 0.51938,
         "items": {
             "assaultvest": 40.69553201289728,
             "choicescarf": 27.675418393981268,
@@ -189,6 +190,7 @@
             "Water",
             "Fairy"
         ],
+        "usage": 0.33932,
         "items": {
             "choicespecs": 37.55581668625147,
             "wikiberry": 22.00940070505288,
@@ -353,6 +355,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.2699,
         "items": {
             "wikiberry": 28.955532574974146,
             "iapapaberry": 16.132368148914168,
@@ -519,6 +522,7 @@
             "Fire",
             "Flying"
         ],
+        "usage": 0.24881,
         "items": {
             "charizarditey": 91.76282051282051,
             "charizarditex": 8.221153846153847,
@@ -678,6 +682,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.24247,
         "items": {
             "kangaskhanite": 99.9342213451735,
             "psychicseed": 0.0657786548265088
@@ -832,6 +837,7 @@
             "Electric",
             "Fairy"
         ],
+        "usage": 0.21519,
         "items": {
             "electriumz": 47.32258662219752,
             "lifeorb": 25.495645729108762,
@@ -1003,6 +1009,7 @@
             "Rock",
             "Dark"
         ],
+        "usage": 0.19849,
         "items": {
             "choicescarf": 22.15749296906388,
             "tyranitarite": 20.329449578143834,
@@ -1183,6 +1190,7 @@
             "Psychic",
             "Fairy"
         ],
+        "usage": 0.19657,
         "items": {
             "choicescarf": 34.68559837728195,
             "psychiumz": 25.983772819472616,
@@ -1353,6 +1361,7 @@
             "Electric",
             "Flying"
         ],
+        "usage": 0.19426,
         "items": {
             "electriumz": 44.47865353037767,
             "mistyseed": 17.528735632183906,
@@ -1515,6 +1524,7 @@
             "Steel",
             "Ghost"
         ],
+        "usage": 0.19107,
         "items": {
             "ghostiumz": 71.84891485809683,
             "lifeorb": 9.432387312186979,
@@ -1677,6 +1687,7 @@
             "Steel",
             "Psychic"
         ],
+        "usage": 0.14258,
         "items": {
             "metagrossite": 97.67897091722595,
             "assaultvest": 0.8668903803131991,
@@ -1835,6 +1846,7 @@
             "Fire",
             "Steel"
         ],
+        "usage": 0.14075,
         "items": {
             "shucaberry": 50.08498583569405,
             "firiumz": 16.997167138810198,
@@ -2005,6 +2017,7 @@
             "Dragon",
             "Flying"
         ],
+        "usage": 0.13908,
         "items": {
             "salamencite": 99.56995412844037,
             "yacheberry": 0.143348623853211,
@@ -2171,6 +2184,7 @@
             "Grass",
             "Fairy"
         ],
+        "usage": 0.11503,
         "items": {
             "grassiumz": 23.223570190641247,
             "choicescarf": 22.253032928942808,
@@ -2339,6 +2353,7 @@
             "Steel",
             "Fairy"
         ],
+        "usage": 0.10243,
         "items": {
             "mawilite": 99.96107434799534
         },
@@ -2481,6 +2496,7 @@
             "Rock",
             "Steel"
         ],
+        "usage": 0.0931,
         "items": {
             "lifeorb": 32.33404710920771,
             "chopleberry": 17.259100642398288,
@@ -2647,6 +2663,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.09191,
         "items": {
             "wikiberry": 23.34056399132321,
             "sitrusberry": 12.364425162689805,
@@ -2809,6 +2826,7 @@
             "Water",
             "Flying"
         ],
+        "usage": 0.09123,
         "items": {
             "focussash": 79.10839160839161,
             "damprock": 15.253496503496503,
@@ -2953,6 +2971,7 @@
             "Water",
             "Grass"
         ],
+        "usage": 0.08624,
         "items": {
             "wateriumz": 54.78502080443828,
             "assaultvest": 40.268146093388815,
@@ -3105,6 +3124,7 @@
             "Poison",
             "Dragon"
         ],
+        "usage": 0.08537,
         "items": {
             "focussash": 42.5035030359645,
             "lifeorb": 17.18822979915927,
@@ -3269,6 +3289,7 @@
             "Dragon",
             "Fighting"
         ],
+        "usage": 0.08226,
         "items": {
             "kommoniumz": 97.67329132331555,
             "assaultvest": 1.3572467280659235,
@@ -3436,6 +3457,7 @@
             "Fire",
             "Dark"
         ],
+        "usage": 0.08026,
         "items": {
             "inciniumz": 50.22354694485842,
             "assaultvest": 38.599105812220564,
@@ -3598,6 +3620,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.07915,
         "items": {
             "aguavberry": 23.073047858942065,
             "leftovers": 18.08564231738035,
@@ -3750,6 +3773,7 @@
             "Steel",
             "Flying"
         ],
+        "usage": 0.07452,
         "items": {
             "leftovers": 59.49705724986624,
             "mistyseed": 21.776350989834135,
@@ -3928,6 +3952,7 @@
             "Grass",
             "Steel"
         ],
+        "usage": 0.07197,
         "items": {
             "focussash": 47.59002770083102,
             "grassiumz": 17.008310249307478,
@@ -4084,6 +4109,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.07046,
         "items": {
             "figyberry": 55.178268251273344,
             "aguavberry": 13.695529145444256,
@@ -4252,6 +4278,7 @@
             "Ghost",
             "Poison"
         ],
+        "usage": 0.07034,
         "items": {
             "gengarite": 86.05442176870748,
             "ghostiumz": 6.746031746031746,
@@ -4399,6 +4426,7 @@
             "Dark",
             "Fighting"
         ],
+        "usage": 0.05969,
         "items": {
             "assaultvest": 61.2558450233801,
             "ejectbutton": 21.442885771543086,
@@ -4566,6 +4594,7 @@
             "Grass",
             "Steel"
         ],
+        "usage": 0.05786,
         "items": {
             "choiceband": 33.90764989662302,
             "leftovers": 25.29290144727774,
@@ -4716,6 +4745,7 @@
             "Bug",
             "Fire"
         ],
+        "usage": 0.05702,
         "items": {
             "choicescarf": 28.95104895104895,
             "firiumz": 24.055944055944057,
@@ -4872,6 +4902,7 @@
             "Grass",
             "Poison"
         ],
+        "usage": 0.05646,
         "items": {
             "rockyhelmet": 29.731638418079097,
             "aguavberry": 10.875706214689265,
@@ -5035,6 +5066,7 @@
             "Dark",
             "Dragon"
         ],
+        "usage": 0.05167,
         "items": {
             "darkiniumz": 51.69753086419753,
             "choicescarf": 13.811728395061728,
@@ -5185,6 +5217,7 @@
             "Water",
             "Ground"
         ],
+        "usage": 0.04677,
         "items": {
             "swampertite": 94.8849104859335,
             "expertbelt": 2.0460358056265986,
@@ -5340,6 +5373,7 @@
             "Ghost",
             "Fairy"
         ],
+        "usage": 0.04557,
         "items": {
             "mimikiumz": 48.46894138232721,
             "ghostiumz": 19.335083114610672,
@@ -5505,6 +5539,7 @@
             "Psychic",
             "Fairy"
         ],
+        "usage": 0.04486,
         "items": {
             "gardevoirite": 98.84444444444445,
             "mentalherb": 0.5333333333333333,
@@ -5652,6 +5687,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.04398,
         "items": {
             "eviolite": 99.90933816863101,
             "everstone": 0.09066183136899365
@@ -5804,6 +5840,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.04362,
         "items": {
             "ejectbutton": 74.13162705667276,
             "fightiniumz": 6.489945155393053,
@@ -5952,6 +5989,7 @@
             "Fire",
             "Ghost"
         ],
+        "usage": 0.0431,
         "items": {
             "choicescarf": 40.14801110083256,
             "ghostiumz": 26.919518963922293,
@@ -6103,6 +6141,7 @@
             "Ground",
             "Steel"
         ],
+        "usage": 0.04286,
         "items": {
             "groundiumz": 45.02325581395349,
             "lifeorb": 28.651162790697676,
@@ -6245,6 +6284,7 @@
             "Water",
             "Ground"
         ],
+        "usage": 0.04143,
         "items": {
             "wikiberry": 21.07795957651588,
             "sitrusberry": 20.59672762271415,
@@ -6402,6 +6442,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.0386,
         "items": {
             "wikiberry": 23.65702479338843,
             "assaultvest": 14.566115702479339,
@@ -6555,6 +6596,7 @@
             "Grass",
             "Fairy"
         ],
+        "usage": 0.03664,
         "items": {
             "focussash": 73.23177366702939,
             "normaliumz": 7.834602829162133,
@@ -6709,6 +6751,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.03337,
         "items": {
             "manectite": 99.0442054958184,
             "focussash": 0.955794504181601
@@ -6841,6 +6884,7 @@
             "Rock",
             "Poison"
         ],
+        "usage": 0.0323,
         "items": {
             "focussash": 35.67901234567901,
             "choicescarf": 19.753086419753085,
@@ -6999,6 +7043,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.0303,
         "items": {
             "choiceband": 39.078947368421055,
             "assaultvest": 16.57894736842105,
@@ -7166,6 +7211,7 @@
             "Fire",
             "Ground"
         ],
+        "usage": 0.02763,
         "items": {
             "cameruptite": 99.56709956709956,
             "groundiumz": 0.4329004329004329
@@ -7300,6 +7346,7 @@
             "Water",
             "Flying"
         ],
+        "usage": 0.02703,
         "items": {
             "gyaradosite": 69.76401179941003,
             "flyiniumz": 10.029498525073747,
@@ -7456,6 +7503,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.02628,
         "items": {
             "focussash": 87.55690440060698,
             "choicescarf": 7.587253414264036,
@@ -7601,6 +7649,7 @@
             "Fire",
             "Ghost"
         ],
+        "usage": 0.026,
         "items": {
             "thickclub": 99.84662576687117
         },
@@ -7737,6 +7786,7 @@
             "Electric",
             "Steel"
         ],
+        "usage": 0.02516,
         "items": {
             "airballoon": 33.122028526148966,
             "focussash": 25.039619651347067,
@@ -7897,6 +7947,7 @@
             "Grass",
             "Poison"
         ],
+        "usage": 0.0246,
         "items": {
             "venusaurite": 62.39870340356564,
             "lifeorb": 16.53160453808752,
@@ -8044,6 +8095,7 @@
             "Water",
             "Bug"
         ],
+        "usage": 0.02301,
         "items": {
             "wateriumz": 52.85961871750433,
             "iapapaberry": 10.225303292894282,
@@ -8200,6 +8252,7 @@
             "Ice",
             "Fairy"
         ],
+        "usage": 0.02237,
         "items": {
             "focussash": 33.333333333333336,
             "lightclay": 31.372549019607842,
@@ -8349,6 +8402,7 @@
             "Water",
             "Dragon"
         ],
+        "usage": 0.02225,
         "items": {
             "wateriumz": 84.05017921146954,
             "choicespecs": 7.885304659498208,
@@ -8487,6 +8541,7 @@
             "Electric",
             "Flying"
         ],
+        "usage": 0.02197,
         "items": {
             "fightiniumz": 38.11252268602541,
             "electriumz": 27.04174228675136,
@@ -8640,6 +8695,7 @@
             "Dark",
             "null"
         ],
+        "usage": 0.02161,
         "items": {
             "darkiniumz": 36.90036900369004,
             "magoberry": 18.819188191881917,
@@ -8786,6 +8842,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.01958,
         "items": {
             "wikiberry": 38.69653767820774,
             "assaultvest": 11.608961303462321,
@@ -8937,6 +8994,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.01926,
         "items": {
             "electriumz": 54.24430641821946,
             "choicescarf": 17.184265010351968,
@@ -9081,6 +9139,7 @@
             "Electric",
             "Water"
         ],
+        "usage": 0.01926,
         "items": {
             "sitrusberry": 29.399585921325052,
             "magoberry": 20.496894409937887,
@@ -9233,6 +9292,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.01854,
         "items": {
             "blastoisinite": 98.70967741935483,
             "assaultvest": 0.6451612903225806,
@@ -9374,6 +9434,7 @@
             "Water",
             "Fairy"
         ],
+        "usage": 0.0177,
         "items": {
             "assaultvest": 59.009009009009006,
             "sitrusberry": 19.594594594594593,
@@ -9509,6 +9570,7 @@
             "Dark",
             "Ice"
         ],
+        "usage": 0.01711,
         "items": {
             "focussash": 58.97435897435897,
             "darkiniumz": 30.303030303030305,
@@ -9653,6 +9715,7 @@
             "Bug",
             "Fighting"
         ],
+        "usage": 0.01679,
         "items": {
             "focussash": 46.080760095011875,
             "fightiniumz": 18.28978622327791,
@@ -9813,6 +9876,7 @@
             "Poison",
             "Dark"
         ],
+        "usage": 0.01643,
         "items": {
             "figyberry": 58.00970873786408,
             "blacksludge": 28.883495145631066,
@@ -9966,6 +10030,7 @@
             "Ground",
             "Dark"
         ],
+        "usage": 0.01627,
         "items": {
             "roseliberry": 32.35294117647059,
             "assaultvest": 25.735294117647058,
@@ -10125,6 +10190,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.01611,
         "items": {
             "focussash": 67.57425742574257,
             "assaultvest": 12.871287128712872,
@@ -10262,6 +10328,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.01483,
         "items": {
             "eviolite": 100
         },
@@ -10387,6 +10454,7 @@
             "Fire",
             "Fighting"
         ],
+        "usage": 0.01467,
         "items": {
             "blazikenite": 57.33695652173913,
             "lifeorb": 16.847826086956523,
@@ -10539,6 +10607,7 @@
             "Water",
             "Dark"
         ],
+        "usage": 0.01423,
         "items": {
             "focussash": 49.01960784313726,
             "choicescarf": 34.73389355742297,
@@ -10698,6 +10767,7 @@
             "Dragon",
             "Ground"
         ],
+        "usage": 0.01316,
         "items": {
             "groundiumz": 42.72727272727273,
             "choicescarf": 20.303030303030305,
@@ -10854,6 +10924,7 @@
             "Rock",
             "Fighting"
         ],
+        "usage": 0.01276,
         "items": {
             "chopleberry": 24.375,
             "rockiumz": 22.5,
@@ -11000,6 +11071,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.01192,
         "items": {
             "eviolite": 95.9866220735786,
             "focussash": 4.013377926421405
@@ -11124,6 +11196,7 @@
             "Normal",
             "Psychic"
         ],
+        "usage": 0.0118,
         "items": {
             "mentalherb": 59.45945945945946,
             "psychiumz": 18.243243243243242,
@@ -11272,6 +11345,7 @@
             "Ghost",
             "Flying"
         ],
+        "usage": 0.01124,
         "items": {
             "psychicseed": 68.43971631205673,
             "mistyseed": 25.53191489361702,
@@ -11412,6 +11486,7 @@
             "Bug",
             "null"
         ],
+        "usage": 0.0112,
         "items": {
             "psychicseed": 97.50889679715303,
             "focussash": 1.4234875444839858,
@@ -11542,6 +11617,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.01073,
         "items": {
             "charcoal": 44.98141263940521,
             "choicespecs": 22.676579925650557,
@@ -11684,6 +11760,7 @@
             "Electric",
             "Psychic"
         ],
+        "usage": 0.01069,
         "items": {
             "fightiniumz": 44.02985074626866,
             "focussash": 23.134328358208954,
@@ -11834,6 +11911,7 @@
             "Rock",
             "Flying"
         ],
+        "usage": 0.01057,
         "items": {
             "aerodactylite": 61.132075471698116,
             "focussash": 38.113207547169814,
@@ -11969,6 +12047,7 @@
             "Fighting",
             "Steel"
         ],
+        "usage": 0.01033,
         "items": {
             "lucarionite": 65.63706563706563,
             "focussash": 29.72972972972973,
@@ -12118,6 +12197,7 @@
             "Rock",
             "Fairy"
         ],
+        "usage": 0.01029,
         "items": {
             "ironball": 72.48062015503876,
             "mentalherb": 16.666666666666668,
@@ -12231,6 +12311,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00973,
         "items": {
             "assaultvest": 62.295081967213115,
             "fightiniumz": 17.62295081967213,
@@ -12375,6 +12456,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00965,
         "items": {
             "electriumz": 31.40495867768595,
             "aguavberry": 20.24793388429752,
@@ -12512,6 +12594,7 @@
             "Poison",
             "Fire"
         ],
+        "usage": 0.00921,
         "items": {
             "focussash": 84.84848484848484,
             "assaultvest": 7.792207792207792,
@@ -12647,6 +12730,7 @@
             "Dark",
             "Steel"
         ],
+        "usage": 0.00869,
         "items": {
             "focussash": 67.43119266055047,
             "lifeorb": 25.229357798165136,
@@ -12777,6 +12861,7 @@
             "Rock",
             "null"
         ],
+        "usage": 0.00845,
         "items": {
             "lifeorb": 19.339622641509433,
             "rockiumz": 17.452830188679247,
@@ -12927,6 +13012,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00817,
         "items": {
             "lopunnite": 100
         },
@@ -13063,6 +13149,7 @@
             "Rock",
             "null"
         ],
+        "usage": 0.00801,
         "items": {
             "choiceband": 83.08457711442786,
             "lycaniumz": 12.437810945273633,
@@ -13196,6 +13283,7 @@
             "Dragon",
             "null"
         ],
+        "usage": 0.0075,
         "items": {
             "weaknesspolicy": 60.638297872340424,
             "wikiberry": 15.957446808510639,
@@ -13341,6 +13429,7 @@
             "Normal",
             "Flying"
         ],
+        "usage": 0.00738,
         "items": {
             "choicescarf": 100
         },
@@ -13468,6 +13557,7 @@
             "Dragon",
             "Psychic"
         ],
+        "usage": 0.00734,
         "items": {
             "latiasite": 60.869565217391305,
             "sitrusberry": 32.608695652173914,
@@ -13617,6 +13707,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "sitrusberry": 91.47727272727273,
             "psychiumz": 6.818181818181818,
@@ -13725,6 +13816,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00702,
         "items": {
             "eviolite": 83.52272727272727,
             "colburberry": 9.659090909090908,
@@ -13858,6 +13950,7 @@
             "Bug",
             "Fighting"
         ],
+        "usage": 0.00698,
         "items": {
             "assaultvest": 52.57142857142857,
             "lifeorb": 18.857142857142858,
@@ -14006,6 +14099,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "sitrusberry": 99.39024390243902,
             "focussash": 0.6097560975609756
@@ -14114,6 +14208,7 @@
             "Bug",
             "Steel"
         ],
+        "usage": 0.0065,
         "items": {
             "scizorite": 65.03067484662577,
             "choiceband": 34.969325153374236
@@ -14244,6 +14339,7 @@
             "Bug",
             "Rock"
         ],
+        "usage": 0.00646,
         "items": {
             "safetygoggles": 43.20987654320987,
             "sitrusberry": 20.987654320987655,
@@ -14372,6 +14468,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.0063,
         "items": {
             "normaliumz": 93.67088607594937,
             "choicescarf": 5.69620253164557,
@@ -14505,6 +14602,7 @@
             "Electric",
             "Flying"
         ],
+        "usage": 0.00626,
         "items": {
             "fightiniumz": 25.477707006369428,
             "iapapaberry": 14.012738853503185,
@@ -14655,6 +14753,7 @@
             "Grass",
             "Ice"
         ],
+        "usage": 0.00602,
         "items": {
             "abomasite": 93.37748344370861,
             "choicescarf": 2.6490066225165565,
@@ -14792,6 +14891,7 @@
             "Electric",
             "Fire"
         ],
+        "usage": 0.0059,
         "items": {
             "firiumz": 30.405405405405407,
             "electriumz": 27.7027027027027,
@@ -14934,6 +15034,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00582,
         "items": {
             "assaultvest": 78.08219178082192,
             "powerbracer": 15.753424657534246,
@@ -15071,6 +15172,7 @@
             "Normal",
             "Dragon"
         ],
+        "usage": 0.00542,
         "items": {
             "lifeorb": 46.3235294117647,
             "choicespecs": 25.735294117647058,
@@ -15218,6 +15320,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.00084,
         "items": {
             "wateriumz": 100
         },
@@ -15332,6 +15435,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00506,
         "items": {
             "assaultvest": 59.05511811023622,
             "lifeorb": 31.496062992125985,
@@ -15474,6 +15578,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00482,
         "items": {
             "darkiniumz": 56.19834710743802,
             "normaliumz": 20.66115702479339,
@@ -15619,6 +15724,7 @@
             "Dark",
             "null"
         ],
+        "usage": 0.00455,
         "items": {
             "wikiberry": 61.40350877192982,
             "leftovers": 38.59649122807018
@@ -15743,6 +15849,7 @@
             "Water",
             "Ice"
         ],
+        "usage": 0.00447,
         "items": {
             "sitrusberry": 72.32142857142857,
             "figyberry": 21.428571428571427,
@@ -15841,6 +15948,7 @@
             "Poison",
             "Flying"
         ],
+        "usage": 0.00443,
         "items": {
             "mentalherb": 23.423423423423422,
             "flyiniumz": 18.91891891891892,
@@ -15976,6 +16084,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.00439,
         "items": {
             "firiumz": 23.636363636363637,
             "assaultvest": 22.727272727272727,
@@ -16119,6 +16228,7 @@
             "Bug",
             "Water"
         ],
+        "usage": 0.00435,
         "items": {
             "assaultvest": 52.293577981651374,
             "lifeorb": 29.357798165137616,
@@ -16248,6 +16358,7 @@
             "Dark",
             "Ghost"
         ],
+        "usage": 0.00435,
         "items": {
             "sablenite": 57.79816513761468,
             "aguavberry": 14.678899082568808,
@@ -16381,6 +16492,7 @@
             "Fighting",
             "Flying"
         ],
+        "usage": 0.00419,
         "items": {
             "psychicseed": 76.19047619047619,
             "electricseed": 14.285714285714286,
@@ -16518,6 +16630,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00415,
         "items": {
             "normalgem": 49.03846153846154,
             "choicescarf": 17.307692307692307,
@@ -16669,6 +16782,7 @@
             "Grass",
             "Fighting"
         ],
+        "usage": 0.00012,
         "items": {
             "choicescarf": 67.96116504854369,
             "focussash": 32.03883495145631
@@ -16793,6 +16907,7 @@
             "Ghost",
             "Grass"
         ],
+        "usage": 0.00399,
         "items": {
             "grassiumz": 68,
             "ghostiumz": 11,
@@ -16926,6 +17041,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00387,
         "items": {
             "sceptilite": 87.62886597938144,
             "grassyseed": 5.154639175257732,
@@ -17066,6 +17182,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00375,
         "items": {
             "eeviumz": 100
         },
@@ -17188,6 +17305,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "lightball": 100
         },
@@ -17308,6 +17426,7 @@
             "Rock",
             "Grass"
         ],
+        "usage": 0.00363,
         "items": {
             "iapapaberry": 63.73626373626374,
             "rockiumz": 10.989010989010989,
@@ -17446,6 +17565,7 @@
             "Bug",
             "Electric"
         ],
+        "usage": 0.00355,
         "items": {
             "assaultvest": 67.41573033707866,
             "electriumz": 12.359550561797754,
@@ -17582,6 +17702,7 @@
             "Fire",
             "Flying"
         ],
+        "usage": 0.00351,
         "items": {
             "flyiniumz": 52.27272727272727,
             "focussash": 38.63636363636363,
@@ -17707,6 +17828,7 @@
             "Dark",
             "Flying"
         ],
+        "usage": 0.00343,
         "items": {
             "psychicseed": 58.13953488372093,
             "mistyseed": 23.25581395348837,
@@ -17828,6 +17950,7 @@
             "Ground",
             "Rock"
         ],
+        "usage": 0.00343,
         "items": {
             "rockiumz": 31.3953488372093,
             "assaultvest": 18.6046511627907,
@@ -17965,6 +18088,7 @@
             "Fire",
             "Fighting"
         ],
+        "usage": 0.00331,
         "items": {
             "focussash": 100
         },
@@ -18086,6 +18210,7 @@
             "Fairy",
             "Flying"
         ],
+        "usage": 0.00323,
         "items": {
             "aguavberry": 34.5679012345679,
             "sitrusberry": 24.691358024691358,
@@ -18215,6 +18340,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00319,
         "items": {
             "flameorb": 38.75,
             "assaultvest": 35,
@@ -18350,6 +18476,7 @@
             "Rock",
             "Water"
         ],
+        "usage": 0.00319,
         "items": {
             "rockiumz": 97.5,
             "choiceband": 2.5
@@ -18472,6 +18599,7 @@
             "Water",
             "Steel"
         ],
+        "usage": 0.00315,
         "items": {
             "assaultvest": 100
         },
@@ -18604,6 +18732,7 @@
             "Water",
             "Psychic"
         ],
+        "usage": 0.00315,
         "items": {
             "slowbronite": 55.69620253164557,
             "wateriumz": 29.11392405063291,
@@ -18741,6 +18870,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00307,
         "items": {
             "psychiumz": 32.467532467532465,
             "lifeorb": 31.16883116883117,
@@ -18876,6 +19006,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00299,
         "items": {
             "iapapaberry": 32,
             "aguavberry": 32,
@@ -19003,6 +19134,7 @@
             "Flying",
             "null"
         ],
+        "usage": 0.00295,
         "items": {
             "mistyseed": 63.513513513513516,
             "flyiniumz": 8.108108108108109,
@@ -19139,6 +19271,7 @@
             "Bug",
             "Ghost"
         ],
+        "usage": 0.00295,
         "items": {
             "safetygoggles": 100
         },
@@ -19232,6 +19365,7 @@
             "Bug",
             "Poison"
         ],
+        "usage": 0.00279,
         "items": {
             "beedrillite": 100
         },
@@ -19353,6 +19487,7 @@
             "Ice",
             "null"
         ],
+        "usage": 0.00263,
         "items": {
             "choicescarf": 56.06060606060606,
             "assaultvest": 42.42424242424242,
@@ -19480,6 +19615,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00255,
         "items": {
             "audinite": 68.75,
             "mentalherb": 28.125,
@@ -19596,6 +19732,7 @@
             "Dark",
             "null"
         ],
+        "usage": 0.00251,
         "items": {
             "focussash": 52.38095238095238,
             "electricseed": 15.873015873015873,
@@ -19721,6 +19858,7 @@
             "Fighting",
             "Psychic"
         ],
+        "usage": 0.00243,
         "items": {
             "choicescarf": 75.40983606557377,
             "medichamite": 24.59016393442623
@@ -19844,6 +19982,7 @@
             "Rock",
             "null"
         ],
+        "usage": 0.00239,
         "items": {
             "focussash": 46.666666666666664,
             "lycaniumz": 23.333333333333332,
@@ -19978,6 +20117,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00239,
         "items": {
             "lifeorb": 21.666666666666668,
             "focussash": 16.666666666666668,
@@ -20107,6 +20247,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00235,
         "items": {
             "sitrusberry": 81.35593220338983,
             "kasibberry": 13.559322033898304,
@@ -20223,6 +20364,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00235,
         "items": {
             "psychiumz": 32.20338983050848,
             "alakazite": 30.508474576271187,
@@ -20359,6 +20501,7 @@
             "Dark",
             "Flying"
         ],
+        "usage": 0.00231,
         "items": {
             "eviolite": 100
         },
@@ -20479,6 +20622,7 @@
             "Ghost",
             "Fire"
         ],
+        "usage": 0.00223,
         "items": {
             "focussash": 30.357142857142858,
             "wikiberry": 19.642857142857142,
@@ -20618,6 +20762,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.00219,
         "items": {
             "choicespecs": 63.63636363636363,
             "pixieplate": 18.181818181818183,
@@ -20748,6 +20893,7 @@
             "Normal",
             "Flying"
         ],
+        "usage": 0.00219,
         "items": {
             "flyiniumz": 67.27272727272727,
             "sitrusberry": 16.363636363636363,
@@ -20877,6 +21023,7 @@
             "Ice",
             "Ground"
         ],
+        "usage": 0.00215,
         "items": {
             "groundiumz": 42.592592592592595,
             "focussash": 14.814814814814815,
@@ -21013,6 +21160,7 @@
             "Dragon",
             "Flying"
         ],
+        "usage": 0.00207,
         "items": {
             "choicescarf": 78.84615384615384,
             "groundiumz": 7.6923076923076925,
@@ -21147,6 +21295,7 @@
             "Water",
             "Ghost"
         ],
+        "usage": 0.00203,
         "items": {
             "wateriumz": 62.745098039215684,
             "aguavberry": 15.686274509803921,
@@ -21275,6 +21424,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "figyberry": 100
         },
@@ -21364,6 +21514,7 @@
             "Grass",
             "Poison"
         ],
+        "usage": 0.00195,
         "items": {
             "choicescarf": 95.91836734693878,
             "adrenalineorb": 2.0408163265306123,
@@ -21487,6 +21638,7 @@
             "Electric",
             "Steel"
         ],
+        "usage": 0.00191,
         "items": {
             "electriumz": 62.5,
             "leftovers": 20.833333333333332,
@@ -21612,6 +21764,7 @@
             "Water",
             "Fairy"
         ],
+        "usage": 0.00187,
         "items": {
             "choicespecs": 42.5531914893617,
             "assaultvest": 31.914893617021278,
@@ -21743,6 +21896,7 @@
             "Water",
             "Ice"
         ],
+        "usage": 0.00187,
         "items": {
             "magoberry": 82.97872340425532,
             "assaultvest": 14.893617021276595,
@@ -21862,6 +22016,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.00183,
         "items": {
             "choicescarf": 47.82608695652174,
             "iapapaberry": 30.434782608695652,
@@ -21975,6 +22130,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.00179,
         "items": {
             "choiceband": 53.333333333333336,
             "choicescarf": 40,
@@ -22088,6 +22244,7 @@
             "Bug",
             "Grass"
         ],
+        "usage": 0.00171,
         "items": {
             "focussash": 60.46511627906977,
             "aguavberry": 39.53488372093023
@@ -22193,6 +22350,7 @@
             "Ground",
             "null"
         ],
+        "usage": 0.00167,
         "items": {
             "assaultvest": 73.80952380952381,
             "choiceband": 11.904761904761905,
@@ -22319,6 +22477,7 @@
             "Bug",
             "null"
         ],
+        "usage": 0.00012,
         "items": {
             "pinsirite": 100
         },
@@ -22416,6 +22575,7 @@
             "Poison",
             "Ground"
         ],
+        "usage": 0.00167,
         "items": {
             "lifeorb": 100
         },
@@ -22536,6 +22696,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00163,
         "items": {
             "banettite": 100
         },
@@ -22648,6 +22809,7 @@
             "Psychic",
             "Fairy"
         ],
+        "usage": 0.00163,
         "items": {
             "powerband": 56.09756097560975,
             "powerweight": 21.951219512195124,
@@ -22753,6 +22915,7 @@
             "Steel",
             "Psychic"
         ],
+        "usage": 0.00159,
         "items": {
             "psychiumz": 52.5,
             "wikiberry": 42.5,
@@ -22871,6 +23034,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "sitrusberry": 94.87179487179488,
             "ghostiumz": 5.128205128205129
@@ -22979,6 +23143,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.00148,
         "items": {
             "choicescarf": 56.75675675675676,
             "wateriumz": 29.72972972972973,
@@ -23097,6 +23262,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00144,
         "items": {
             "mistyseed": 44.44444444444444,
             "psychiumz": 19.444444444444443,
@@ -23222,6 +23388,7 @@
             "Bug",
             "Rock"
         ],
+        "usage": 0.00004,
         "items": {
             "safetygoggles": 100
         },
@@ -23316,6 +23483,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00136,
         "items": {
             "rockyhelmet": 88.23529411764706,
             "choicescarf": 8.823529411764707,
@@ -23429,6 +23597,7 @@
             "Dragon",
             "Psychic"
         ],
+        "usage": 0.00136,
         "items": {
             "choicescarf": 23.529411764705884,
             "ghostiumz": 20.58823529411765,
@@ -23563,6 +23732,7 @@
             "Ice",
             "null"
         ],
+        "usage": 0.00132,
         "items": {
             "iciumz": 51.515151515151516,
             "choicespecs": 30.303030303030305,
@@ -23681,6 +23851,7 @@
             "Ghost",
             "Grass"
         ],
+        "usage": 0.00128,
         "items": {
             "focussash": 84.375,
             "sitrusberry": 9.375,
@@ -23796,6 +23967,7 @@
             "Grass",
             "Fighting"
         ],
+        "usage": 0.00124,
         "items": {
             "lifeorb": 41.935483870967744,
             "rockiumz": 35.483870967741936,
@@ -23913,6 +24085,7 @@
             "Poison",
             "Ground"
         ],
+        "usage": 0.00124,
         "items": {
             "lifeorb": 64.51612903225806,
             "focussash": 35.483870967741936
@@ -24015,6 +24188,7 @@
             "Water",
             "Flying"
         ],
+        "usage": 0.00116,
         "items": {
             "grassyseed": 34.48275862068966,
             "sitrusberry": 24.137931034482758,
@@ -24129,6 +24303,7 @@
             "Grass",
             "Ghost"
         ],
+        "usage": 0.00112,
         "items": {
             "choiceband": 35.714285714285715,
             "sitrusberry": 25,
@@ -24245,6 +24420,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00036,
         "items": {
             "figyberry": 66.66666666666667,
             "focussash": 11.11111111111111,
@@ -24347,6 +24523,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00036,
         "items": {
             "choicescarf": 88.88888888888889,
             "focussash": 11.11111111111111
@@ -24456,6 +24633,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00104,
         "items": {
             "normaliumz": 84.61538461538461,
             "assaultvest": 15.384615384615385
@@ -24573,6 +24751,7 @@
             "Fighting",
             "Ice"
         ],
+        "usage": 0.001,
         "items": {
             "iciumz": 88,
             "fightiniumz": 8,
@@ -24666,6 +24845,7 @@
             "Ground",
             "Flying"
         ],
+        "usage": 0.001,
         "items": {
             "lifeorb": 76,
             "assaultvest": 24
@@ -24773,6 +24953,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.00096,
         "items": {
             "wikiberry": 79.16666666666667,
             "figyberry": 12.5,
@@ -24877,6 +25058,7 @@
             "Dark",
             "Psychic"
         ],
+        "usage": 0.00092,
         "items": {
             "sitrusberry": 65.21739130434783,
             "leftovers": 17.391304347826086,
@@ -24975,6 +25157,7 @@
             "Dark",
             "null"
         ],
+        "usage": 0.00044,
         "items": {
             "darkiniumz": 100
         },
@@ -25075,6 +25258,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00044,
         "items": {
             "ampharosite": 100
         },
@@ -25168,6 +25352,7 @@
             "Poison",
             "Fighting"
         ],
+        "usage": 0.00028,
         "items": {
             "poisoniumz": 100
         },
@@ -25261,6 +25446,7 @@
             "Grass",
             "Ground"
         ],
+        "usage": 0.00004,
         "items": {
             "grassiumz": 100
         },
@@ -25341,6 +25527,7 @@
             "Ground",
             "null"
         ],
+        "usage": 0.0004,
         "items": {
             "thickclub": 100
         },
@@ -25428,6 +25615,7 @@
             "Dark",
             "Dragon"
         ],
+        "usage": 0.00076,
         "items": {
             "assaultvest": 73.6842105263158,
             "poisoniumz": 10.526315789473685,
@@ -25524,6 +25712,7 @@
             "Dark",
             "Fire"
         ],
+        "usage": 0.00076,
         "items": {
             "houndoominite": 84.21052631578948,
             "choicescarf": 15.789473684210526
@@ -25609,6 +25798,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.00076,
         "items": {
             "choicescarf": 94.73684210526316,
             "choicespecs": 5.2631578947368425
@@ -25708,6 +25898,7 @@
             "Water",
             "Dark"
         ],
+        "usage": 0.00024,
         "items": {
             "lifeorb": 83.33333333333333,
             "assaultvest": 16.666666666666668
@@ -25785,6 +25976,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.00072,
         "items": {
             "wikiberry": 83.33333333333333,
             "lifeorb": 11.11111111111111,
@@ -25878,6 +26070,7 @@
             "Rock",
             "Flying"
         ],
+        "usage": 0.00008,
         "items": {
             "focussash": 100
         },
@@ -25957,6 +26150,7 @@
             "Psychic",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "powerlens": 100
         },
@@ -26032,6 +26226,7 @@
             "Flying",
             "Dragon"
         ],
+        "usage": 0.00032,
         "items": {
             "focussash": 50,
             "dragoniumz": 37.5,
@@ -26135,6 +26330,7 @@
             "Ground",
             "null"
         ],
+        "usage": 0.00064,
         "items": {
             "wikiberry": 56.25,
             "assaultvest": 31.25,
@@ -26226,6 +26422,7 @@
             "Bug",
             "Fairy"
         ],
+        "usage": 0.0006,
         "items": {
             "focussash": 100
         },
@@ -26306,6 +26503,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.0006,
         "items": {
             "aguavberry": 46.666666666666664,
             "mentalherb": 33.333333333333336,
@@ -26410,6 +26608,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "ghostmemory": 100
         },
@@ -26485,6 +26684,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00056,
         "items": {
             "expertbelt": 64.28571428571429,
             "focussash": 28.571428571428573,
@@ -26576,6 +26776,7 @@
             "Psychic",
             "Fighting"
         ],
+        "usage": 0.00052,
         "items": {
             "galladite": 100
         },
@@ -26670,6 +26871,7 @@
             "Rock",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "choicescarf": 91.66666666666667,
             "lycaniumz": 8.333333333333334
@@ -26761,6 +26963,7 @@
             "Normal",
             "Fairy"
         ],
+        "usage": 0.0002,
         "items": {
             "babiriberry": 58.333333333333336,
             "fairiumz": 41.666666666666664
@@ -26844,6 +27047,7 @@
             "Electric",
             "Normal"
         ],
+        "usage": 0.00044,
         "items": {
             "choicespecs": 45.45454545454545,
             "normaliumz": 36.36363636363637,
@@ -26924,6 +27128,7 @@
             "Fire",
             "Psychic"
         ],
+        "usage": 0.00004,
         "items": {
             "iapapaberry": 100
         },
@@ -26983,6 +27188,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00044,
         "items": {
             "psychiumz": 100
         },
@@ -27063,6 +27269,7 @@
             "Water",
             "Psychic"
         ],
+        "usage": 0.00044,
         "items": {
             "sitrusberry": 72.72727272727273,
             "lifeorb": 18.181818181818183,
@@ -27147,6 +27354,7 @@
             "Water",
             "Psychic"
         ],
+        "usage": 0.0004,
         "items": {
             "focussash": 60,
             "sitrusberry": 30,
@@ -27233,6 +27441,7 @@
             "Bug",
             "Electric"
         ],
+        "usage": 0.0002,
         "items": {
             "electriumz": 100
         },
@@ -27304,6 +27513,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.0004,
         "items": {
             "cellbattery": 50,
             "choiceband": 30,
@@ -27383,6 +27593,7 @@
             "Dragon",
             "Flying"
         ],
+        "usage": 0.0004,
         "items": {
             "altarianite": 100
         },
@@ -27472,6 +27683,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "focussash": 100
         },
@@ -27534,6 +27746,7 @@
             "Electric",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "flyiniumz": 100
         },
@@ -27605,6 +27818,7 @@
             "Bug",
             "Flying"
         ],
+        "usage": 0.00036,
         "items": {
             "buginiumz": 77.77777777777777,
             "ghostiumz": 22.22222222222222
@@ -27677,6 +27891,7 @@
             "Ice",
             "Steel"
         ],
+        "usage": 0.00036,
         "items": {
             "groundiumz": 66.66666666666667,
             "steeliumz": 33.333333333333336
@@ -27762,6 +27977,7 @@
             "Electric",
             "Grass"
         ],
+        "usage": 0.00004,
         "items": {
             "grassiumz": 100
         },
@@ -27822,6 +28038,7 @@
             "Grass",
             "Dark"
         ],
+        "usage": 0.00004,
         "items": {
             "focussash": 100
         },
@@ -27890,6 +28107,7 @@
             "Bug",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "magoberry": 100
         },
@@ -27947,6 +28165,7 @@
             "Steel",
             "Rock"
         ],
+        "usage": 0.00004,
         "items": {
             "aggronite": 100
         },
@@ -28007,6 +28226,7 @@
             "Fighting",
             "null"
         ],
+        "usage": 0.00032,
         "items": {
             "mistyseed": 62.5,
             "psychicseed": 37.5
@@ -28086,6 +28306,7 @@
             "Normal",
             "Fairy"
         ],
+        "usage": 0.00032,
         "items": {
             "eviolite": 100
         },
@@ -28147,6 +28368,7 @@
             "Ice",
             "null"
         ],
+        "usage": 0.00028,
         "items": {
             "iciumz": 57.142857142857146,
             "choiceband": 42.857142857142854
@@ -28226,6 +28448,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00028,
         "items": {
             "lifeorb": 71.42857142857143,
             "psychiumz": 14.285714285714286
@@ -28301,6 +28524,7 @@
             "Bug",
             "Fighting"
         ],
+        "usage": 0.00028,
         "items": {
             "heracronite": 100
         },
@@ -28366,6 +28590,7 @@
             "Bug",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -28432,6 +28657,7 @@
             "Ground",
             "Rock"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -28497,6 +28723,7 @@
             "Ground",
             "null"
         ],
+        "usage": 0.00024,
         "items": {
             "groundmemory": 100
         },
@@ -28569,6 +28796,7 @@
             "Grass",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "grassmemory": 100
         },
@@ -28638,6 +28866,7 @@
             "Steel",
             "Fairy"
         ],
+        "usage": 0.00012,
         "items": {
             "iapapaberry": 66.66666666666667,
             "lightclay": 33.333333333333336
@@ -28709,6 +28938,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00024,
         "items": {
             "iapapaberry": 83.33333333333333,
             "psychiumz": 16.666666666666668
@@ -28780,6 +29010,7 @@
             "Fairy",
             "null"
         ],
+        "usage": 0.0002,
         "items": {
             "psychicseed": 100
         },
@@ -28845,6 +29076,7 @@
             "Grass",
             "Fighting"
         ],
+        "usage": 0.00004,
         "items": {
             "rockiumz": 100
         },
@@ -28902,6 +29134,7 @@
             "Bug",
             "Steel"
         ],
+        "usage": 0.0002,
         "items": {
             "groundiumz": 80,
             "assaultvest": 20
@@ -28970,6 +29203,7 @@
             "Psychic",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "choicescarf": 100
         },
@@ -29032,6 +29266,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.0002,
         "items": {
             "choicescarf": 100
         },
@@ -29095,6 +29330,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "king'srock": 100
         },
@@ -29153,6 +29389,7 @@
             "Rock",
             "Electric"
         ],
+        "usage": 0.0002,
         "items": {
             "groundiumz": 40,
             "airballoon": 40,
@@ -29228,6 +29465,7 @@
             "Ghost",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -29280,6 +29518,7 @@
             "Steel",
             "Ground"
         ],
+        "usage": 0.00008,
         "items": {
             "steelixite": 100
         },
@@ -29348,6 +29587,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "wikiberry": 100
         },
@@ -29393,6 +29633,7 @@
             "Rock",
             "Water"
         ],
+        "usage": 0.00008,
         "items": {
             "wateriumz": 100
         },
@@ -29451,6 +29692,7 @@
             "Fire",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "firiumz": 100
         },
@@ -29503,6 +29745,7 @@
             "Bug",
             "Flying"
         ],
+        "usage": 0.00016,
         "items": {
             "focussash": 100
         },
@@ -29563,6 +29806,7 @@
             "Normal",
             "Fighting"
         ],
+        "usage": 0.00004,
         "items": {
             "assaultvest": 100
         },
@@ -29623,6 +29867,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.00012,
         "items": {
             "sitrusberry": 100
         },
@@ -29682,6 +29927,7 @@
             "Rock",
             "Ice"
         ],
+        "usage": 0.00004,
         "items": {
             "assaultvest": 100
         },
@@ -29740,6 +29986,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.00012,
         "items": {
             "lifeorb": 66.66666666666667,
             "assaultvest": 33.333333333333336
@@ -29806,6 +30053,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -29860,6 +30108,7 @@
             "Water",
             "Ground"
         ],
+        "usage": 0.00012,
         "items": {
             "rockiumz": 66.66666666666667,
             "groundiumz": 33.333333333333336
@@ -29917,6 +30166,7 @@
             "Psychic",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "iapapaberry": 100
         },
@@ -29972,6 +30222,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00012,
         "items": {
             "figyberry": 66.66666666666667,
             "aguavberry": 33.333333333333336
@@ -30036,6 +30287,7 @@
             "Ground",
             "Psychic"
         ],
+        "usage": 0.00012,
         "items": {
             "magoberry": 66.66666666666667,
             "aguavberry": 33.333333333333336
@@ -30100,6 +30352,7 @@
             "Fairy",
             "Flying"
         ],
+        "usage": 0.00012,
         "items": {
             "eviolite": 100
         },
@@ -30159,6 +30412,7 @@
             "Water",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "aguavberry": 100
         },
@@ -30209,6 +30463,7 @@
             "Grass",
             "Dragon"
         ],
+        "usage": 0.00004,
         "items": {
             "psychiumz": 100
         },
@@ -30264,6 +30519,7 @@
             "Grass",
             "Psychic"
         ],
+        "usage": 0.00012,
         "items": {
             "focussash": 33.333333333333336,
             "lifeorb": 33.333333333333336,
@@ -30328,6 +30584,7 @@
             "Flying",
             "null"
         ],
+        "usage": 0.00008,
         "items": {
             "flyiniumz": 50,
             "firiumz": 50
@@ -30385,6 +30642,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "assaultvest": 100
         },
@@ -30437,6 +30695,7 @@
             "Electric",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "focussash": 100
         },
@@ -30490,6 +30749,7 @@
             "Grass",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "focussash": 100
         },
@@ -30540,6 +30800,7 @@
             "Electric",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "electriumz": 100
         },
@@ -30590,6 +30851,7 @@
             "Water",
             "Fighting"
         ],
+        "usage": 0.00008,
         "items": {
             "fightiniumz": 100
         },
@@ -30644,6 +30906,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -30689,6 +30952,7 @@
             "Poison",
             "Dragon"
         ],
+        "usage": 0.00004,
         "items": {
             "fightiniumz": 100
         },
@@ -30739,6 +31003,7 @@
             "Normal",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "normaliumz": 100
         },
@@ -30789,6 +31054,7 @@
             "Ground",
             "Ghost"
         ],
+        "usage": 0.00004,
         "items": {
             "groundiumz": 100
         },
@@ -30834,6 +31100,7 @@
             "Ground",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "toxicorb": 100
         },
@@ -30884,6 +31151,7 @@
             "Steel",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "figyberry": 100
         },
@@ -30935,6 +31203,7 @@
             "Ice",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "glalitite": 100
         },
@@ -30980,6 +31249,7 @@
             "Bug",
             "null"
         ],
+        "usage": 0.00004,
         "items": {
             "iapapaberry": 100
         },
@@ -31025,6 +31295,7 @@
             "Steel",
             "Rock"
         ],
+        "usage": 0.00004,
         "items": {
             "shellbell": 100
         },
@@ -31075,6 +31346,7 @@
             "Steel",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "rockyhelmet": 100
         },
@@ -31120,6 +31392,7 @@
             "Bug",
             "Steel"
         ],
+        "usage": 0.00004,
         "items": {
             "redcard": 100
         },
@@ -31170,6 +31443,7 @@
             "Psychic",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "powerlens": 100
         },
@@ -31220,6 +31494,7 @@
             "Ice",
             "Psychic"
         ],
+        "usage": 0.00004,
         "items": {
             "focussash": 100
         },
@@ -31270,6 +31545,7 @@
             "Electric",
             "Steel"
         ],
+        "usage": 0.00004,
         "items": {
             "eviolite": 100
         },
@@ -31323,6 +31599,7 @@
             "Dark",
             "Normal"
         ],
+        "usage": 0.00004,
         "items": {
             "lifeorb": 100
         },
@@ -31372,6 +31649,7 @@
             "Normal",
             "Flying"
         ],
+        "usage": 0.00004,
         "items": {
             "pidgeotite": 100
         },

@@ -1,6 +1,22 @@
 'use-strict';
-const data = require('./data/vgc');
-const totalusage = 150479;
+const data = require('./data/vgcreformated');
+const pokemon = [];
+/*
+    ALERT, THIS IS NOT HOW THE MATH WORKS OUT
+    USING THIS METHOD PRACTICALLY MEANS THAT METAGROSS IS NEVER PICKED
+    EVEN THOUGH IT IS USED IN 14% OF MATCHES
+*/
+while(pokemon.length<6) {
+    let rand = Math.random();
+    let tally = 0; 
+    for (let p = 0; p<data.length; p++) {
+        if (rand >= tally && rand < tally + data[p].usage && !pokemon.includes(data[p].name)) {
+            pokemon.push(data[p].name);
+            break;
+        }
+        if (!pokemon.includes(data[p].name))
+        tally += data[p].usage;
+    }
+}
 
-const percent = Math.round(parseInt(data[0][data[0].length - 1]) / totalusage * 600000) / 100000;
-console.log(percent);
+console.log(pokemon);

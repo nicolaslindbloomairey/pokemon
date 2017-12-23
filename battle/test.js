@@ -1,8 +1,23 @@
 'use strict';
 
-const format = 'vgc2018';
+//set up python bot loading
+const spawn = require('child_process').spawn;
+const pybot = spawn('python', ['bots/pybot.py']);
+
+var move = null;
+pybot.stdout.on('data', function(data) {
+    console.log(data.toString());
+    move = data.toString();
+});
+pybot.stdout.on('end', function() {
+    console.log('python script ended');
+});
+pybot.stderr.on('data', function(data) {
+    console.log(data.toString());
+});
 
 //IMPORTS
+const format = 'vgc2018';
 const Sim = require('./sim');
 const Dex = require('./sim/dex');
 const Ai = require('./ai');
@@ -23,7 +38,7 @@ const you = new Random('you', 'p2',team1);
 
 //JOIN THE BATTLE
 
-for (let i = 0; i<50; i++) {
+for (let i = 0; i<1; i++) {
     console.log("battle number " + (i+1));
 
     const battle = Sim.construct(format);
@@ -37,13 +52,19 @@ for (let i = 0; i<50; i++) {
     //const state =Helper.getState(battle);
 
     //THE BATTLE
-    while (!battle.ended) {
-        battle.choose('p1', me.decide(battle.dataOnly()));
-        battle.choose('p2', you.decide(battle.dataOnly()));
+    //while (!battle.ended) {
+        pybot.stdin.write(JSON.stringify(battle.dataOnly()));
+        if (move) {
+            battle.choose('p1', move);
+            console.log(move);
+            move = null;
+            battle.choose('p2', you.decide(battle.dataOnly()));
+        }
+        pybot.stdin.end();
         Helper.log(battle, me, you);
 
 
-    }
+    //}
 
 
 }

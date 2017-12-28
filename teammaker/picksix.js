@@ -1,32 +1,45 @@
 'use-strict';
 const data = require('./data/vgcreformated');
+const dict = require('./data/dict');
 /*
     ALERT, THIS IS NOT HOW THE MATH WORKS OUT
     USING THIS METHOD PRACTICALLY MEANS THAT METAGROSS IS NEVER PICKED
     EVEN THOUGH IT IS USED IN 14% OF MATCHES
-*/
 const test = [];
 const num = 1;
 for (let i = 0; i<num; i++) {
+*/
+
+const generate = function() {
 
     const team = [];
-    const names = [];
+    const species = [];
     const items = [];
 
     //until there are 6 pokemon on the team
+    let counter = 0;
     while(team.length<6) {
+	counter += 1;
+	//console.log(counter);
+
         let rand = Math.random();
         let randtally = 0; 
         const pokemon = {};
         pokemon.name = '';
+	pokemon.species = '';
+	pokemon.gender = '';
+	pokemon.level = 50;
         pokemon.moves = [];
         //go through the whole list until you get to the pokemon that matches the random number chosen
         for (let p = 0; p<data.length; p++) {
-            if (rand >= randtally && rand < randtally + (data[p].usage/6.0) && !names.includes(data[p].name)) {
+	    //console.log(randtally);
+	    const name = dict[data[p].id];
+            if (rand >= randtally && rand < randtally + (data[p].usage/6.0) && !species.includes(name)) {
 
                 //pokemon has been chosen = data[p]
-                pokemon.name = data[p].name;
-                names.push(pokemon.name);
+		//console.log(name + " chosen");
+                pokemon.species = name;
+                species.push(pokemon.species);
 
                 //chose moves for our pokemon
                 while (pokemon.moves.length<4) {
@@ -44,6 +57,7 @@ for (let i = 0; i<num; i++) {
 
                     }
                 }
+		//console.log(pokemon.moves + " chosen");
 
 
                 //choose item for our pokemon
@@ -53,11 +67,12 @@ for (let i = 0; i<num; i++) {
                 ** IT CHECKS FOR ITEM CLAUSE NOW, BUT NOT TWO MEGASTONES
                 ** WHICH IS ALLOWED ANYWAY.
                 */
-                while (!pokemon.item) {
+                //while (!pokemon.item) {
 
                     let itemRand = Math.random();
                     let itemRandTally = 0;
                     for (const item in data[p].items) {
+			    //console.log("itemTally: " + itemRandTally);
                             if (itemRand >= itemRandTally && itemRand < itemRandTally + (data[p].items[item]) && !items.includes(item)) {
                                 pokemon.item = item;
                                 items.push(pokemon.item);
@@ -65,7 +80,10 @@ for (let i = 0; i<num; i++) {
                             }
                             itemRandTally += data[p].items[item];
                     }
-                }
+		    pokemon.item = '';
+
+                //}
+		//console.log(pokemon.item + " chosen");
 
                 let abilityRand = Math.random();
                 let abilityRandTally = 0;
@@ -76,6 +94,7 @@ for (let i = 0; i<num; i++) {
                         }
                         abilityRandTally += data[p].abilities[ability];
                 }
+		//console.log(pokemon.ability + " chosen");
 
                 let natureRand = Math.random();
                 let natureRandTally = 0;
@@ -86,7 +105,25 @@ for (let i = 0; i<num; i++) {
                         }
                         natureRandTally += data[p].natures[nature];
                 }
+		//console.log(pokemon.ability + " chosen");
 
+		//EVS
+		const divs = [];
+		for (let i = 0; i<5; i++) {
+			divs.push(Math.floor((Math.random() *128)));
+			divs.sort(function(a, b) {
+				return a-b;
+			});
+		}	
+		const evs = {
+			"HP": (4*(divs[0]-0)> 252) ? 252 : 4*(divs[0]-0),
+			"ATK": (4*(divs[1]-divs[0])> 252) ? 252 : 4*(divs[1]-divs[0]),
+			"DEF": (4*(divs[2]-divs[1])> 252) ? 252 : 4*(divs[2]-divs[1]),
+			"SPA": (4*(divs[3]-divs[2])> 252) ? 252 : 4*(divs[3]-divs[2]),
+			"SPD": (4*(divs[4]-divs[3])> 252) ? 252 : 4*(divs[4]-divs[3]),
+			"SPE": (4*(127-divs[4])> 252) ? 252 : 4*(127-divs[4]),
+		};
+		pokemon.evs = evs;
 
                 team.push(pokemon);
 
@@ -100,8 +137,8 @@ for (let i = 0; i<num; i++) {
         }
     }
     
-    test.push(team);
-    console.log(team);
+    return team;
+    //console.log(team);
 }
 
 /*
@@ -117,4 +154,5 @@ for (let i = 0; i<data.length; i++) {
 console.log('RMSE = ' + Math.pow(diffcounter/data.length, 0.5));
 */
 
+module.exports = generate;
 

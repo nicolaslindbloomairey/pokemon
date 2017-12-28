@@ -1,0 +1,1481 @@
+Statistical profiling result from isolate-0x3637a40-v8.log, (3603 ticks, 285 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+    872   24.2%          /usr/bin/node
+     69    1.9%          /lib/x86_64-linux-gnu/libc-2.23.so
+     11    0.3%          [vdso]
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     94    2.6%    3.5%  Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     81    2.2%    3.1%  StoreIC: A store IC from the snapshot
+     74    2.1%    2.8%  Builtin: ObjectHasOwnProperty
+     59    1.6%    2.2%  LoadIC: A load IC from the snapshot
+     52    1.4%    2.0%  Builtin: InterpreterEntryTrampoline
+     27    0.7%    1.0%  Builtin: KeyedLoadIC_Megamorphic
+     26    0.7%    1.0%  Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+     25    0.7%    0.9%  LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+     25    0.7%    0.9%  Builtin: LoadIC_Noninlined
+     23    0.6%    0.9%  RegExp: [^a-z0-9]+
+     21    0.6%    0.8%  Builtin: StringToLowerCaseIntl
+     20    0.6%    0.8%  LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+     17    0.5%    0.6%  Function: ~loadData /home/nick/pokemon/battle/sim/dex.js:1268:10
+     17    0.5%    0.6%  Builtin: StringPrototypeReplace
+     15    0.4%    0.6%  Builtin: FastCloneRegExp
+     14    0.4%    0.5%  Function: ~getId /home/nick/pokemon/battle/sim/dex-data.js:46:14
+     14    0.4%    0.5%  Builtin: RegExpReplace
+     13    0.4%    0.5%  Builtin: CallFunction_ReceiverIsAny
+     12    0.3%    0.5%  LazyCompile: *Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+     12    0.3%    0.5%  Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+     12    0.3%    0.5%  Builtin: LoadICProtoArray
+     12    0.3%    0.5%  Builtin: HasProperty
+     12    0.3%    0.5%  Builtin: FastNewObject
+     11    0.3%    0.4%  LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     11    0.3%    0.4%  KeyedLoadIC: A keyed load IC from the snapshot
+     10    0.3%    0.4%  Stub: StringAddStub
+     10    0.3%    0.4%  Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      9    0.2%    0.3%  Stub: CEntryStub
+      9    0.2%    0.3%  Builtin: JSConstructStubGenericUnrestrictedReturn
+      8    0.2%    0.3%  LazyCompile: *getId /home/nick/pokemon/battle/sim/dex-data.js:46:14
+      8    0.2%    0.3%  Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      7    0.2%    0.3%  Stub: CallICStub
+      6    0.2%    0.2%  Stub: CEntryStub {1}
+      6    0.2%    0.2%  Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      6    0.2%    0.2%  Function: ~delete native collection.js:187:7
+      6    0.2%    0.2%  Builtin: ArrayMap
+      5    0.1%    0.2%  LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      5    0.1%    0.2%  Function: ~get data /home/nick/pokemon/battle/sim/dex.js:157:10
+      5    0.1%    0.2%  Function: ~Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      5    0.1%    0.2%  Builtin: ArgumentsAdaptorTrampoline
+      4    0.1%    0.2%  LoadIC: A load IC from the snapshot {1}
+      4    0.1%    0.2%  LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      4    0.1%    0.2%  LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      4    0.1%    0.2%  Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      4    0.1%    0.2%  Function: ~getAbility /home/nick/pokemon/battle/sim/dex.js:585:12
+      4    0.1%    0.2%  Builtin: StringEqual
+      4    0.1%    0.2%  Builtin: ArrayIteratorPrototypeNext
+      3    0.1%    0.1%  LazyCompile: *MapFindEntry native collection.js:39:22
+      3    0.1%    0.1%  Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      3    0.1%    0.1%  Function: ~toString /home/nick/pokemon/battle/sim/pokemon.js:221:10
+      3    0.1%    0.1%  Function: ~normalizeStringPosix path.js:106:30
+      3    0.1%    0.1%  Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      3    0.1%    0.1%  Function: ~getAbility /home/nick/pokemon/battle/sim/pokemon.js:1081:12
+      3    0.1%    0.1%  Function: ~PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      3    0.1%    0.1%  Function: ~InnerArraySort native array.js:530:24
+      3    0.1%    0.1%  Function: ~InnerArrayJoin native array.js:275:24
+      3    0.1%    0.1%  Function: ~GetHash native collection.js:85:17
+      3    0.1%    0.1%  Function: ~Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+      3    0.1%    0.1%  Builtin: ToObject {1}
+      3    0.1%    0.1%  Builtin: StringPrototypeToLowerCaseIntl
+      3    0.1%    0.1%  Builtin: StringPrototypeSubstr
+      3    0.1%    0.1%  Builtin: StringIndexOf
+      3    0.1%    0.1%  Builtin: InterpreterPushArgsThenCallFunction
+      2    0.1%    0.1%  Stub: RecordWriteStub
+      2    0.1%    0.1%  LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      2    0.1%    0.1%  KeyedStoreIC: A keyed store IC from the snapshot
+      2    0.1%    0.1%  KeyedLoadIC: A keyed load IC from the snapshot {1}
+      2    0.1%    0.1%  Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      2    0.1%    0.1%  Function: ~runInThisContext bootstrap_node.js:495:28
+      2    0.1%    0.1%  Function: ~join native array.js:288:46
+      2    0.1%    0.1%  Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2    0.1%    0.1%  Function: ~getImmunity /home/nick/pokemon/battle/sim/dex.js:249:13
+      2    0.1%    0.1%  Function: ~generate /home/nick/pokemon/teammaker/picksix.js:13:26
+      2    0.1%    0.1%  Function: ~banNames.map.v /home/nick/pokemon/battle/sim/dex.js:752:31
+      2    0.1%    0.1%  Function: ~Item /home/nick/pokemon/battle/sim/dex-data.js:246:13
+      2    0.1%    0.1%  Function: ~InsertionSort native array.js:543:23
+      2    0.1%    0.1%  Function: ~DoJoin native array.js:95:16
+      2    0.1%    0.1%  Builtin: ToBoolean
+      2    0.1%    0.1%  Builtin: StringPrototypeTrim
+      2    0.1%    0.1%  Builtin: StringPrototypeSplit
+      2    0.1%    0.1%  Builtin: InterpreterPushUndefinedAndArgsThenCallFunction
+      2    0.1%    0.1%  Builtin: InterpreterPushArgsThenConstructFunction
+      1    0.0%    0.0%  Stub: RecordWriteStub {4}
+      1    0.0%    0.0%  Stub: RecordWriteStub {3}
+      1    0.0%    0.0%  Stub: RecordWriteStub {2}
+      1    0.0%    0.0%  Stub: RecordWriteStub {1}
+      1    0.0%    0.0%  Stub: GetPropertyStub
+      1    0.0%    0.0%  Stub: CEntryStub {2}
+      1    0.0%    0.0%  StoreIC: A store IC from the snapshot {1}
+      1    0.0%    0.0%  LazyCompile: *set native collection.js:149:4
+      1    0.0%    0.0%  LazyCompile: *PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      1    0.0%    0.0%  LazyCompile: *GetHash native collection.js:85:17
+      1    0.0%    0.0%  Handler: An IC handler from the snapshot {1}
+      1    0.0%    0.0%  Handler: An IC handler from the snapshot
+      1    0.0%    0.0%  Function: ~tryExtensions module.js:162:23
+      1    0.0%    0.0%  Function: ~tryCreateBuffer fs.js:524:25
+      1    0.0%    0.0%  Function: ~switchIn /home/nick/pokemon/battle/sim/battle.js:1050:10
+      1    0.0%    0.0%  Function: ~startup bootstrap_node.js:12:19
+      1    0.0%    0.0%  Function: ~spreadModify /home/nick/pokemon/battle/sim/dex.js:654:14
+      1    0.0%    0.0%  Function: ~sort native array.js:749:46
+      1    0.0%    0.0%  Function: ~singleEvent /home/nick/pokemon/battle/sim/battle.js:413:13
+      1    0.0%    0.0%  Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1    0.0%    0.0%  Function: ~resolve path.js:1171:28
+      1    0.0%    0.0%  Function: ~realpathSync fs.js:1571:40
+      1    0.0%    0.0%  Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1    0.0%    0.0%  Function: ~nextFrame /home/nick/pokemon/battle/sim/prng.js:139:11
+      1    0.0%    0.0%  Function: ~modifyDamage /home/nick/pokemon/battle/sim/battle.js:1820:14
+      1    0.0%    0.0%  Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1    0.0%    0.0%  Function: ~getWeather /home/nick/pokemon/battle/sim/battle.js:181:12
+      1    0.0%    0.0%  Function: ~getTerrain /home/nick/pokemon/battle/sim/battle.js:233:12
+      1    0.0%    0.0%  Function: ~getString /home/nick/pokemon/battle/sim/dex-data.js:27:18
+      1    0.0%    0.0%  Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1    0.0%    0.0%  Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1    0.0%    0.0%  Function: ~getSideCondition /home/nick/pokemon/battle/sim/side.js:222:18
+      1    0.0%    0.0%  Function: ~getRequestData /home/nick/pokemon/battle/sim/pokemon.js:528:16
+      1    0.0%    0.0%  Function: ~getMoves /home/nick/pokemon/battle/sim/pokemon.js:461:10
+      1    0.0%    0.0%  Function: ~getMoveTargets /home/nick/pokemon/battle/sim/pokemon.js:343:16
+      1    0.0%    0.0%  Function: ~getHealthInner /home/nick/pokemon/battle/sim/pokemon.js:1171:16
+      1    0.0%    0.0%  Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      1    0.0%    0.0%  Function: ~entry.moves.pokemon.moves.map.move /home/nick/pokemon/battle/sim/side.js:177:30
+      1    0.0%    0.0%  Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      1    0.0%    0.0%  Function: ~disableMove /home/nick/pokemon/battle/sim/pokemon.js:833:13
+      1    0.0%    0.0%  Function: ~dirname path.js:1363:28
+      1    0.0%    0.0%  Function: ~dataOnly /home/nick/pokemon/battle/sim/pokemon.js:181:13
+      1    0.0%    0.0%  Function: ~chooseMove /home/nick/pokemon/battle/sim/side.js:265:12
+      1    0.0%    0.0%  Function: ~add native collection.js:96:4
+      1    0.0%    0.0%  Function: ~add /home/nick/pokemon/battle/sim/battle.js:2596:5
+      1    0.0%    0.0%  Function: ~actives.active.filter.active /home/nick/pokemon/battle/sim/side.js:193:36
+      1    0.0%    0.0%  Function: ~Template /home/nick/pokemon/battle/sim/dex-data.js:340:13
+      1    0.0%    0.0%  Function: ~NativeModule.exists bootstrap_node.js:550:33
+      1    0.0%    0.0%  Function: ~GetExistingHash native collection.js:69:25
+      1    0.0%    0.0%  Function: ~<anonymous> internal/loader/Loader.js:1:11
+      1    0.0%    0.0%  Builtin: StringPrototypeSlice
+      1    0.0%    0.0%  Builtin: StringPrototypeLastIndexOf
+      1    0.0%    0.0%  Builtin: StringPrototypeIndexOf
+      1    0.0%    0.0%  Builtin: StringPrototypeCharCodeAt
+      1    0.0%    0.0%  Builtin: MapLookupHashIndex
+      1    0.0%    0.0%  Builtin: MapConstructor
+      1    0.0%    0.0%  Builtin: LoadIC_Uninitialized
+      1    0.0%    0.0%  Builtin: KeyedStoreIC_Megamorphic_Strict
+      1    0.0%    0.0%  Builtin: GrowFastSmiOrObjectElements
+      1    0.0%    0.0%  Builtin: ForInPrepare {1}
+      1    0.0%    0.0%  Builtin: FastArrayPush
+      1    0.0%    0.0%  Builtin: ArrayFilter
+
+ [C++]:
+   ticks  total  nonlib   name
+     65    1.8%    2.5%  v8::internal::IncrementalMarking::Step(unsigned long, v8::internal::IncrementalMarking::CompletionAction, v8::internal::IncrementalMarking::ForceCompletionAction, v8::internal::StepOrigin)
+     36    1.0%    1.4%  __write
+     35    1.0%    1.3%  v8::internal::LookupIterator::WriteDataValue(v8::internal::Handle<v8::internal::Object>, bool)
+     34    0.9%    1.3%  v8::internal::IncrementalMarking::WhiteToGreyAndPush(v8::internal::HeapObject*)
+     34    0.9%    1.3%  int v8::internal::BinarySearch<(v8::internal::SearchMode)1, v8::internal::DescriptorArray>(v8::internal::DescriptorArray*, v8::internal::Name*, int, int*)
+     33    0.9%    1.2%  v8::internal::JSReceiver::SetOrCopyDataProperties(v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSReceiver>, v8::internal::Handle<v8::internal::Object>, v8::internal::ScopedVector<v8::internal::Handle<v8::internal::Object> > const*, bool)
+     30    0.8%    1.1%  v8::internal::JSObject::MigrateToMap(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::Map>, int)
+     29    0.8%    1.1%  v8::internal::Scavenger::ScavengeObject(v8::internal::HeapObject**, v8::internal::HeapObject*)
+     28    0.8%    1.1%  __lll_unlock_wake
+     24    0.7%    0.9%  v8::internal::String::Trim(v8::internal::Handle<v8::internal::String>, v8::internal::String::TrimMode)
+     20    0.6%    0.8%  void v8::internal::LookupIterator::NextInternal<false>(v8::internal::Map*, v8::internal::JSReceiver*)
+     20    0.6%    0.8%  v8::internal::FixStaleLeftTrimmedHandlesVisitor::VisitRootPointers(v8::internal::Root, v8::internal::Object**, v8::internal::Object**)
+     20    0.6%    0.8%  v8::internal::DescriptorArray::Append(v8::internal::Descriptor*)
+     19    0.5%    0.7%  v8::internal::LookupIterator::LookupIterator(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::JSReceiver>, v8::internal::LookupIterator::Configuration)
+     17    0.5%    0.6%  v8::internal::LookupIterator::PropertyOrElement(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, bool*, v8::internal::LookupIterator::Configuration)
+     16    0.4%    0.6%  v8::internal::Runtime_StringReplaceGlobalRegExpWithString(int, v8::internal::Object**, v8::internal::Isolate*)
+     16    0.4%    0.6%  v8::internal::Heap::AllocateMap(v8::internal::InstanceType, int, v8::internal::ElementsKind)
+     15    0.4%    0.6%  v8::internal::Heap::AllocateRaw(int, v8::internal::AllocationSpace, v8::internal::AllocationAlignment)
+     14    0.4%    0.5%  v8::internal::Map::RawCopy(v8::internal::Handle<v8::internal::Map>, int)
+     13    0.4%    0.5%  v8::internal::RegExpImpl::IrregexpExecRaw(v8::internal::Handle<v8::internal::JSRegExp>, v8::internal::Handle<v8::internal::String>, int, int*, int)
+     13    0.4%    0.5%  v8::internal::NativeRegExpMacroAssembler::Match(v8::internal::Handle<v8::internal::Code>, v8::internal::Handle<v8::internal::String>, int*, int, int, v8::internal::Isolate*)
+     13    0.4%    0.5%  v8::internal::Map::CopyWithField(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::FieldType>, v8::internal::PropertyAttributes, v8::internal::PropertyConstness, v8::internal::Representation, v8::internal::TransitionFlag)
+     13    0.4%    0.5%  v8::internal::Heap::AllocateJSObjectFromMap(v8::internal::Map*, v8::internal::PretenureFlag, v8::internal::AllocationSite*)
+     12    0.3%    0.5%  v8::internal::RootScavengeVisitor::VisitRootPointers(v8::internal::Root, v8::internal::Object**, v8::internal::Object**)
+     12    0.3%    0.5%  v8::internal::RegExpImpl::GlobalCache::GlobalCache(v8::internal::Handle<v8::internal::JSRegExp>, v8::internal::Handle<v8::internal::String>, v8::internal::Isolate*)
+     12    0.3%    0.5%  v8::internal::Map::TransitionToDataProperty(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::internal::PropertyConstness, v8::internal::Object::StoreFromKeyed)
+     12    0.3%    0.5%  v8::internal::Map::EnsureDescriptorSlack(v8::internal::Handle<v8::internal::Map>, int)
+     11    0.3%    0.4%  v8::internal::StringTable::LookupString(v8::internal::Isolate*, v8::internal::Handle<v8::internal::String>)
+     11    0.3%    0.4%  v8::internal::String::ComputeAndSetHash()
+     11    0.3%    0.4%  v8::internal::RegExpImpl::IrregexpPrepare(v8::internal::Handle<v8::internal::JSRegExp>, v8::internal::Handle<v8::internal::String>)
+     11    0.3%    0.4%  v8::internal::IterateAndScavengePromotedObjectsVisitor::VisitPointers(v8::internal::HeapObject*, v8::internal::Object**, v8::internal::Object**)
+     10    0.3%    0.4%  v8::internal::String::SlowEquals(v8::internal::String*)
+     10    0.3%    0.4%  v8::internal::Scavenger::Process()
+     10    0.3%    0.4%  v8::internal::Object::SetPropertyInternal(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::LanguageMode, v8::internal::Object::StoreFromKeyed, bool*)
+     10    0.3%    0.4%  v8::internal::JSObject::FastPropertyAt(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Representation, v8::internal::FieldIndex)
+      9    0.2%    0.3%  void v8::internal::FlexibleBodyDescriptor<16>::IterateBody<v8::internal::IncrementalMarkingMarkingVisitor>(v8::internal::HeapObject*, int, v8::internal::IncrementalMarkingMarkingVisitor*)
+      9    0.2%    0.3%  v8::internal::TransitionArray::SearchTransition(v8::internal::Map*, v8::internal::PropertyKind, v8::internal::Name*, v8::internal::PropertyAttributes)
+      9    0.2%    0.3%  v8::internal::LookupIterator::PrepareForDataProperty(v8::internal::Handle<v8::internal::Object>)
+      9    0.2%    0.3%  v8::internal::HeapObject::SizeFromMap(v8::internal::Map*) const
+      9    0.2%    0.3%  v8::internal::Heap::Scavenge()
+      9    0.2%    0.3%  v8::internal::Heap::AllocateFixedArrayWithFiller(int, v8::internal::PretenureFlag, v8::internal::Object*)
+      9    0.2%    0.3%  v8::internal::HashTable<v8::internal::StringTable, v8::internal::StringTableShape>::FindEntry(v8::internal::Isolate*, v8::internal::StringTableKey*)
+      9    0.2%    0.3%  v8::internal::FixedArray::set(int, v8::internal::Object*)
+      8    0.2%    0.3%  v8::internal::LookupIterator::ApplyTransitionToDataProperty(v8::internal::Handle<v8::internal::JSObject>)
+      8    0.2%    0.3%  v8::internal::JSObject::OptimizeAsPrototype(v8::internal::Handle<v8::internal::JSObject>)
+      7    0.2%    0.3%  v8::internal::String::Flatten(v8::internal::Handle<v8::internal::String>, v8::internal::PretenureFlag)
+      7    0.2%    0.3%  v8::internal::RegExpStackScope::RegExpStackScope(v8::internal::Isolate*)
+      7    0.2%    0.3%  v8::internal::Map::ShareDescriptor(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::DescriptorArray>, v8::internal::Descriptor*)
+      6    0.2%    0.2%  void v8::internal::Heap::UpdateAllocationSite<(v8::internal::Heap::UpdateAllocationSiteMode)1>(v8::internal::Map*, v8::internal::HeapObject*, v8::base::PointerTemplateHashMapImpl<v8::base::DefaultAllocationPolicy>*)
+      6    0.2%    0.2%  v8::internal::StringTable::LookupStringIfExists_NoAllocate(v8::internal::String*)
+      6    0.2%    0.2%  v8::internal::Map::WeakCellForMap(v8::internal::Handle<v8::internal::Map>)
+      6    0.2%    0.2%  v8::internal::LookupIterator::PrepareTransitionToDataProperty(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::internal::Object::StoreFromKeyed)
+      6    0.2%    0.2%  v8::internal::Heap::InitializeJSObjectBody(v8::internal::JSObject*, v8::internal::Map*, int)
+      6    0.2%    0.2%  v8::internal::Builtin_StringPrototypeTrim(int, v8::internal::Object**, v8::internal::Isolate*)
+      6    0.2%    0.2%  _init
+      5    0.1%    0.2%  void v8::internal::String::WriteToFlat<unsigned char>(v8::internal::String*, unsigned char*, int, int)
+      5    0.1%    0.2%  void v8::internal::LookupIterator::Start<false>()
+      5    0.1%    0.2%  v8::internal::compiler::GraphTrimmer::TrimGraph()
+      5    0.1%    0.2%  v8::internal::compiler::GraphReducer::ReduceTop()
+      5    0.1%    0.2%  v8::internal::String::ComputeArrayIndex(unsigned int*)
+      5    0.1%    0.2%  v8::internal::Object::OptimalRepresentation()
+      5    0.1%    0.2%  v8::internal::InternalizedStringKey::IsMatch(v8::internal::Object*)
+      5    0.1%    0.2%  v8::internal::HeapObject::Size() const
+      5    0.1%    0.2%  v8::internal::Heap::AllocateWeakCell(v8::internal::HeapObject*)
+      5    0.1%    0.2%  v8::internal::Factory::NewJSArray(v8::internal::ElementsKind, v8::internal::PretenureFlag)
+      5    0.1%    0.2%  v8::internal::ElementsAccessor::Concat(v8::internal::Isolate*, v8::internal::Arguments*, unsigned int, unsigned int)
+      5    0.1%    0.2%  v8::internal::Builtin_ObjectAssign(int, v8::internal::Object**, v8::internal::Isolate*)
+      5    0.1%    0.2%  __libc_free
+      4    0.1%    0.2%  v8::internal::compiler::GraphReducer::Reduce(v8::internal::compiler::Node*)
+      4    0.1%    0.2%  v8::internal::TransitionArray::SearchDetails(int, v8::internal::PropertyKind, v8::internal::PropertyAttributes, int*)
+      4    0.1%    0.2%  v8::internal::TransitionArray::Insert(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Map>, v8::internal::SimpleTransitionFlag)
+      4    0.1%    0.2%  v8::internal::StringHasher::GetHashField()
+      4    0.1%    0.2%  v8::internal::Runtime_KeyedGetProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+      4    0.1%    0.2%  v8::internal::RegExpImpl::SetLastMatchInfo(v8::internal::Handle<v8::internal::RegExpMatchInfo>, v8::internal::Handle<v8::internal::String>, int, int*)
+      4    0.1%    0.2%  v8::internal::Object::SetProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::LanguageMode, v8::internal::Object::StoreFromKeyed)
+      4    0.1%    0.2%  v8::internal::Object::AddDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::internal::Object::ShouldThrow, v8::internal::Object::StoreFromKeyed)
+      4    0.1%    0.2%  v8::internal::Map::SetPrototype(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Object>)
+      4    0.1%    0.2%  v8::internal::JsonParser<true>::ParseJsonObject()
+      4    0.1%    0.2%  v8::internal::Heap::RecordWrite(v8::internal::Object*, int, v8::internal::Object*)
+      4    0.1%    0.2%  v8::internal::Heap::OnMoveEvent(v8::internal::HeapObject*, v8::internal::HeapObject*, int)
+      4    0.1%    0.2%  v8::internal::Heap::CopyJSObject(v8::internal::JSObject*, v8::internal::AllocationSite*)
+      4    0.1%    0.2%  v8::internal::Heap::Allocate(v8::internal::Map*, v8::internal::AllocationSpace, v8::internal::AllocationSite*)
+      4    0.1%    0.2%  v8::internal::Heap::AdjustLiveBytes(v8::internal::HeapObject*, int)
+      4    0.1%    0.2%  v8::internal::Factory::NewNumber(double, v8::internal::PretenureFlag)
+      4    0.1%    0.2%  v8::internal::Factory::NewFixedArray(int, v8::internal::PretenureFlag)
+      4    0.1%    0.2%  v8::internal::Builtin_StringPrototypeEndsWith(int, v8::internal::Object**, v8::internal::Isolate*)
+      4    0.1%    0.2%  _IO_vfprintf
+      4    0.1%    0.2%  _IO_default_xsputn
+      3    0.1%    0.1%  v8::internal::compiler::StateValuesCache::BuildTree(unsigned long*, v8::internal::compiler::Node**, unsigned long, v8::internal::BitVector const*, int, unsigned long)
+      3    0.1%    0.1%  v8::internal::compiler::GraphReducer::Revisit(v8::internal::compiler::Node*)
+      3    0.1%    0.1%  v8::internal::compiler::GraphReducer::Replace(v8::internal::compiler::Node*, v8::internal::compiler::Node*, unsigned int)
+      3    0.1%    0.1%  v8::internal::compiler::DeadCodeElimination::Reduce(v8::internal::compiler::Node*)
+      3    0.1%    0.1%  v8::internal::compiler::AccessInfoFactory::ComputePropertyAccessInfo(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::compiler::AccessMode, v8::internal::compiler::PropertyAccessInfo*)
+      3    0.1%    0.1%  v8::internal::Zone::New(unsigned long)
+      3    0.1%    0.1%  v8::internal::String::LastIndexOf(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>)
+      3    0.1%    0.1%  v8::internal::StoreBuffer::InsertDuringRuntime(v8::internal::StoreBuffer*, unsigned char*)
+      3    0.1%    0.1%  v8::internal::StackFrameIterator::Advance()
+      3    0.1%    0.1%  v8::internal::Space::AllocationStep(unsigned char*, int)
+      3    0.1%    0.1%  v8::internal::Scavenger::IterateAndScavengePromotedObject(v8::internal::HeapObject*, int)
+      3    0.1%    0.1%  v8::internal::Scanner::ScanIdentifierOrKeyword()
+      3    0.1%    0.1%  v8::internal::Object::SetDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>)
+      3    0.1%    0.1%  v8::internal::MemoryChunk::Initialize(v8::internal::Heap*, unsigned char*, unsigned long, unsigned char*, unsigned char*, v8::internal::Executability, v8::internal::Space*, v8::base::VirtualMemory*)
+      3    0.1%    0.1%  v8::internal::Map::PrepareForDataProperty(v8::internal::Handle<v8::internal::Map>, int, v8::internal::PropertyConstness, v8::internal::Handle<v8::internal::Object>)
+      3    0.1%    0.1%  v8::internal::Map::OnlyHasSimpleProperties() const
+      3    0.1%    0.1%  v8::internal::LookupIterator::HolderIsReceiverOrHiddenPrototype() const
+      3    0.1%    0.1%  v8::internal::LookupIterator::GetDataValue() const
+      3    0.1%    0.1%  v8::internal::LargeObjectSpace::Contains(v8::internal::HeapObject*)
+      3    0.1%    0.1%  v8::internal::JSObject::SetOwnPropertyIgnoreAttributes(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes)
+      3    0.1%    0.1%  v8::internal::IsMoreGeneralElementsKindTransition(v8::internal::ElementsKind, v8::internal::ElementsKind)
+      3    0.1%    0.1%  v8::internal::HeapObject::synchronized_set_map(v8::internal::Map*)
+      3    0.1%    0.1%  v8::internal::Heap::AllocateStruct(v8::internal::InstanceType)
+      3    0.1%    0.1%  v8::internal::Factory::NewRawOneByteString(int, v8::internal::PretenureFlag)
+      3    0.1%    0.1%  v8::internal::Factory::NewJSArray(v8::internal::ElementsKind, int, int, v8::internal::ArrayStorageAllocationMode, v8::internal::PretenureFlag)
+      3    0.1%    0.1%  v8::internal::Factory::NewAllocationSite()
+      3    0.1%    0.1%  v8::internal::CompileTimeValue::GetElements(v8::internal::Handle<v8::internal::FixedArray>)
+      3    0.1%    0.1%  int v8::internal::BinarySearch<(v8::internal::SearchMode)0, v8::internal::TransitionArray>(v8::internal::TransitionArray*, v8::internal::Name*, int, int*)
+      3    0.1%    0.1%  double v8::internal::InternalStringToDouble<unsigned char const*, unsigned char const*>(v8::internal::UnicodeCache*, unsigned char const*, unsigned char const*, int, double)
+      3    0.1%    0.1%  __pthread_cond_signal
+      2    0.1%    0.1%  void v8::internal::FlexibleBodyDescriptor<8>::IterateBody<v8::internal::IncrementalMarkingMarkingVisitor>(v8::internal::HeapObject*, int, v8::internal::IncrementalMarkingMarkingVisitor*)
+      2    0.1%    0.1%  void std::__introsort_loop<v8::base::AtomicElement<v8::internal::Smi*>*, long, v8::internal::EnumIndexComparator<v8::internal::NameDictionary> >(v8::base::AtomicElement<v8::internal::Smi*>*, v8::base::AtomicElement<v8::internal::Smi*>*, long, v8::internal::EnumIndexComparator<v8::internal::NameDictionary>)
+      2    0.1%    0.1%  v8::internal::interpreter::BytecodeRegisterOptimizer::RegisterTransfer(v8::internal::interpreter::BytecodeRegisterOptimizer::RegisterInfo*, v8::internal::interpreter::BytecodeRegisterOptimizer::RegisterInfo*)
+      2    0.1%    0.1%  v8::internal::interpreter::BytecodeGenerator::BuildVariableAssignment(v8::internal::Variable*, v8::internal::Token::Value, v8::internal::FeedbackSlot, v8::internal::HoleCheckMode, v8::internal::LookupHoistingMode)
+      2    0.1%    0.1%  v8::internal::compiler::Typer::Visitor::JSCallTyper(v8::internal::compiler::Type*, v8::internal::compiler::Typer*)
+      2    0.1%    0.1%  v8::internal::compiler::SourcePositionTable::GetSourcePosition(v8::internal::compiler::Node*) const
+      2    0.1%    0.1%  v8::internal::compiler::SimplifiedOperatorReducer::Reduce(v8::internal::compiler::Node*)
+      2    0.1%    0.1%  v8::internal::compiler::Node::New(v8::internal::Zone*, unsigned int, v8::internal::compiler::Operator const*, int, v8::internal::compiler::Node* const*, bool)
+      2    0.1%    0.1%  v8::internal::compiler::CommonOperatorReducer::Reduce(v8::internal::compiler::Node*)
+      2    0.1%    0.1%  v8::internal::compiler::BytecodeGraphBuilder::Environment::Environment(v8::internal::compiler::BytecodeGraphBuilder::Environment const*)
+      2    0.1%    0.1%  v8::internal::TransitionArray::ExpectedTransitionKey(v8::internal::Handle<v8::internal::Map>)
+      2    0.1%    0.1%  v8::internal::TextNode::TextEmitPass(v8::internal::RegExpCompiler*, v8::internal::TextNode::TextEmitPassType, bool, v8::internal::Trace*, bool, int*)
+      2    0.1%    0.1%  v8::internal::Strtod(v8::internal::Vector<char const>, int)
+      2    0.1%    0.1%  v8::internal::StringSearch<unsigned char, unsigned char>::LinearSearch(v8::internal::StringSearch<unsigned char, unsigned char>*, v8::internal::Vector<unsigned char const>, int)
+      2    0.1%    0.1%  v8::internal::String::ToCString(v8::internal::AllowNullsFlag, v8::internal::RobustnessFlag, int, int, int*)
+      2    0.1%    0.1%  v8::internal::String::SlowFlatten(v8::internal::Handle<v8::internal::ConsString>, v8::internal::PretenureFlag)
+      2    0.1%    0.1%  v8::internal::StackFrameIteratorBase::StackFrameIteratorBase(v8::internal::Isolate*, bool)
+      2    0.1%    0.1%  v8::internal::StackFrameIterator::StackFrameIterator(v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Scanner::SkipSingleLineComment()
+      2    0.1%    0.1%  v8::internal::Runtime_StringSplit(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_FixedArraySet(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_FixedArrayGet(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::RelocIterator::next()
+      2    0.1%    0.1%  v8::internal::ParserBase<v8::internal::Parser>::ParseAssignmentExpression(bool, bool*)
+      2    0.1%    0.1%  v8::internal::ParserBase<v8::internal::Parser>::Expect(v8::internal::Token::Value, bool*)
+      2    0.1%    0.1%  v8::internal::Parser::PatternRewriter::DeclareAndInitializeVariables(v8::internal::Parser*, v8::internal::Block*, v8::internal::ParserBase<v8::internal::Parser>::DeclarationDescriptor const*, v8::internal::ParserBase<v8::internal::Parser>::DeclarationParsingResult::Declaration const*, v8::internal::ZoneList<v8::internal::AstRawString const*>*, bool*)
+      2    0.1%    0.1%  v8::internal::PagedSpace::AllocateRawUnaligned(int, v8::internal::PagedSpace::UpdateSkipList)
+      2    0.1%    0.1%  v8::internal::Object::OptimalType(v8::internal::Isolate*, v8::internal::Representation)
+      2    0.1%    0.1%  v8::internal::Object::GetProperty(v8::internal::LookupIterator*)
+      2    0.1%    0.1%  v8::internal::NativeRegExpMacroAssembler::StringCharacterPosition(v8::internal::String*, int)
+      2    0.1%    0.1%  v8::internal::MarkCompactWeakObjectRetainer::RetainAs(v8::internal::Object*)
+      2    0.1%    0.1%  v8::internal::Map::Update(v8::internal::Handle<v8::internal::Map>)
+      2    0.1%    0.1%  v8::internal::Map::GetVisitorId(v8::internal::Map*)
+      2    0.1%    0.1%  v8::internal::Map::CopyDropDescriptors(v8::internal::Handle<v8::internal::Map>)
+      2    0.1%    0.1%  v8::internal::Map::CopyAddDescriptor(v8::internal::Handle<v8::internal::Map>, v8::internal::Descriptor*, v8::internal::TransitionFlag)
+      2    0.1%    0.1%  v8::internal::Map::ConnectTransition(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::SimpleTransitionFlag)
+      2    0.1%    0.1%  v8::internal::LocalAllocationBuffer::AllocateRawAligned(int, v8::internal::AllocationAlignment)
+      2    0.1%    0.1%  v8::internal::LayoutDescriptor::ShareAppend(v8::internal::Handle<v8::internal::Map>, v8::internal::PropertyDetails)
+      2    0.1%    0.1%  v8::internal::KeyedLoadICNexus::StateFromFeedback() const
+      2    0.1%    0.1%  v8::internal::JsonParser<true>::ParseJsonNumber()
+      2    0.1%    0.1%  v8::internal::JSObject::MakePrototypesFast(v8::internal::Handle<v8::internal::Object>, v8::internal::WhereToStart, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::InnerPointerToCodeCache::GetCacheEntry(unsigned char*)
+      2    0.1%    0.1%  v8::internal::IncrementalMarking::RecordWriteSlow(v8::internal::HeapObject*, v8::internal::Object**, v8::internal::Object*)
+      2    0.1%    0.1%  v8::internal::IdentityMapBase::GetEntry(v8::internal::Object*)
+      2    0.1%    0.1%  v8::internal::IC::UpdateState(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>)
+      2    0.1%    0.1%  v8::internal::HeapObject::map() const
+      2    0.1%    0.1%  v8::internal::Heap::MergeAllocationSitePretenuringFeedback(v8::base::PointerTemplateHashMapImpl<v8::base::DefaultAllocationPolicy> const&)
+      2    0.1%    0.1%  v8::internal::Heap::DeoptMarkedAllocationSites()
+      2    0.1%    0.1%  v8::internal::Heap::CreateFillerObjectAt(unsigned char*, int, v8::internal::ClearRecordedSlots)
+      2    0.1%    0.1%  v8::internal::Heap::AllocateJSObject(v8::internal::JSFunction*, v8::internal::PretenureFlag, v8::internal::AllocationSite*)
+      2    0.1%    0.1%  v8::internal::FieldType::cast(v8::internal::Object*)
+      2    0.1%    0.1%  v8::internal::FieldIndex::ForDescriptor(v8::internal::Map const*, int)
+      2    0.1%    0.1%  v8::internal::FeedbackVector::GetKind(v8::internal::FeedbackSlot) const
+      2    0.1%    0.1%  v8::internal::Factory::NewWeakCell(v8::internal::Handle<v8::internal::HeapObject>)
+      2    0.1%    0.1%  v8::internal::Factory::NewJSObjectFromMap(v8::internal::Handle<v8::internal::Map>, v8::internal::PretenureFlag, v8::internal::Handle<v8::internal::AllocationSite>)
+      2    0.1%    0.1%  v8::internal::Factory::NewJSArrayWithElements(v8::internal::Handle<v8::internal::FixedArrayBase>, v8::internal::ElementsKind, int, v8::internal::PretenureFlag)
+      2    0.1%    0.1%  v8::internal::Factory::NewJSArrayStorage(v8::internal::Handle<v8::internal::JSArray>, int, int, v8::internal::ArrayStorageAllocationMode)
+      2    0.1%    0.1%  v8::internal::DescriptorArray::Sort()
+      2    0.1%    0.1%  v8::internal::AstValueFactory::GetOneByteStringInternal(v8::internal::Vector<unsigned char const>)
+      2    0.1%    0.1%  v8::base::hash_value(unsigned long)
+      2    0.1%    0.1%  munmap
+      2    0.1%    0.1%  mmap
+      2    0.1%    0.1%  bool v8::internal::MarkBit::Set<(v8::internal::AccessMode)1>()
+      2    0.1%    0.1%  __madvise
+      2    0.1%    0.1%  __libc_malloc
+      2    0.1%    0.1%  __GI___pthread_mutex_lock
+      1    0.0%    0.0%  void v8::internal::JSObject::FastBodyDescriptor::IterateBody<v8::internal::IncrementalMarkingMarkingVisitor>(v8::internal::HeapObject*, int, v8::internal::IncrementalMarkingMarkingVisitor*)
+      1    0.0%    0.0%  void node::StreamBase::JSMethod<node::LibuvStreamWrap, &(int node::StreamBase::WriteString<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&))>(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  v8::internal::interpreter::RegisterTransferWriter::EmitMov(v8::internal::interpreter::Register, v8::internal::interpreter::Register)
+      1    0.0%    0.0%  v8::internal::interpreter::ConstantArrayBuilder::ConstantArrayBuilder(v8::internal::Zone*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeRegisterOptimizer::PrepareOutputRegister(v8::internal::interpreter::Register)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeGenerator::VisitObjectLiteral(v8::internal::ObjectLiteral*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeGenerator::VisitForAccumulatorValue(v8::internal::Expression*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeGenerator::VisitAssignment(v8::internal::Assignment*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeGenerator::VisitAndPushIntoRegisterList(v8::internal::Expression*, v8::internal::interpreter::RegisterList*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeGenerator::ControlScope::PerformCommand(v8::internal::interpreter::BytecodeGenerator::ControlScope::Command, v8::internal::Statement*, int)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeArrayWriter::Write(v8::internal::interpreter::BytecodeNode*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeArrayWriter::EmitBytecode(v8::internal::interpreter::BytecodeNode const*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeArrayBuilder::Jump(v8::internal::interpreter::BytecodeLabel*)
+      1    0.0%    0.0%  v8::internal::interpreter::BytecodeArrayAccessor::current_bytecode_size() const
+      1    0.0%    0.0%  v8::internal::compiler::StateValuesCache::GetValuesNodeFromCache(v8::internal::compiler::Node**, unsigned long, v8::internal::compiler::SparseInputMask)
+      1    0.0%    0.0%  v8::internal::compiler::NodeProperties::IsExceptionalCall(v8::internal::compiler::Node*, v8::internal::compiler::Node**)
+      1    0.0%    0.0%  v8::internal::compiler::NodeProperties::IsEffectEdge(v8::internal::compiler::Edge)
+      1    0.0%    0.0%  v8::internal::compiler::NodeProperties::InferReceiverMaps(v8::internal::compiler::Node*, v8::internal::compiler::Node*, v8::internal::ZoneHandleSet<v8::internal::Map>*)
+      1    0.0%    0.0%  v8::internal::compiler::NodeProperties::GetControlInput(v8::internal::compiler::Node*, int)
+      1    0.0%    0.0%  v8::internal::compiler::Node::Kill()
+      1    0.0%    0.0%  v8::internal::compiler::Node::InsertInput(v8::internal::Zone*, int, v8::internal::compiler::Node*)
+      1    0.0%    0.0%  v8::internal::compiler::LoopVariableOptimizer::VisitNode(v8::internal::compiler::Node*)
+      1    0.0%    0.0%  v8::internal::compiler::LoopVariableOptimizer::Run()
+      1    0.0%    0.0%  v8::internal::compiler::LinearScanAllocator::TryAllocateFreeReg(v8::internal::compiler::LiveRange*, v8::internal::Vector<v8::internal::compiler::LifetimePosition> const&)
+      1    0.0%    0.0%  v8::internal::compiler::JSContextSpecialization::Reduce(v8::internal::compiler::Node*)
+      1    0.0%    0.0%  v8::internal::compiler::DeadCodeElimination::ReduceLoopOrMerge(v8::internal::compiler::Node*)
+      1    0.0%    0.0%  v8::internal::compiler::BytecodeGraphBuilder::VisitBytecodes(bool)
+      1    0.0%    0.0%  v8::internal::compiler::BytecodeGraphBuilder::Environment::LookupRegister(v8::internal::interpreter::Register) const
+      1    0.0%    0.0%  v8::internal::compiler::BytecodeGraphBuilder::Environment::Checkpoint(v8::internal::BailoutId, v8::internal::compiler::OutputFrameStateCombine, v8::internal::compiler::BytecodeLivenessState const*)
+      1    0.0%    0.0%  v8::internal::compiler::BytecodeGraphBuilder::BuildLoopExitsUntilLoop(int)
+      1    0.0%    0.0%  v8::internal::compiler::BytecodeAnalysis::GetLoopOffsetFor(int) const
+      1    0.0%    0.0%  v8::internal::compiler::BitsetType::Lub(v8::internal::compiler::Type*)
+      1    0.0%    0.0%  v8::internal::compiler::BitsetType::Lub(v8::internal::Map*)
+      1    0.0%    0.0%  v8::internal::compiler::AllocateTypeOf(v8::internal::compiler::Operator const*)
+      1    0.0%    0.0%  v8::internal::compiler::AccessInfoFactory::LookupTransition(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Name>, v8::internal::MaybeHandle<v8::internal::JSObject>, v8::internal::compiler::PropertyAccessInfo*)
+      1    0.0%    0.0%  v8::internal::Zone::Zone(v8::internal::AccountingAllocator*, char const*)
+      1    0.0%    0.0%  v8::internal::WeakCell::next_cleared()
+      1    0.0%    0.0%  v8::internal::V8::GetCurrentPlatform()
+      1    0.0%    0.0%  v8::internal::TransitionArray::set_next_link(v8::internal::Object*, v8::internal::WriteBarrierMode)
+      1    0.0%    0.0%  v8::internal::TransitionArray::ReplaceTransitions(v8::internal::Handle<v8::internal::Map>, v8::internal::Object*)
+      1    0.0%    0.0%  v8::internal::StubCache::Set(v8::internal::Name*, v8::internal::Map*, v8::internal::Object*)
+      1    0.0%    0.0%  v8::internal::StringTable::LookupKey(v8::internal::Isolate*, v8::internal::StringTableKey*)
+      1    0.0%    0.0%  v8::internal::StringShape::StringShape(v8::internal::String const*)
+      1    0.0%    0.0%  v8::internal::String::SlowAsArrayIndex(unsigned int*)
+      1    0.0%    0.0%  v8::internal::String::IsOneByteRepresentation() const
+      1    0.0%    0.0%  v8::internal::String::IsOneByteEqualTo(v8::internal::Vector<unsigned char const>)
+      1    0.0%    0.0%  v8::internal::String::IndexOf(v8::internal::Isolate*, v8::internal::Handle<v8::internal::String>, v8::internal::Handle<v8::internal::String>, int)
+      1    0.0%    0.0%  v8::internal::String::GetFlatContent()
+      1    0.0%    0.0%  v8::internal::StoreIC::UpdateCaches(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::Object::StoreFromKeyed)
+      1    0.0%    0.0%  v8::internal::StoreIC::GetMapIndependentHandler(v8::internal::LookupIterator*)
+      1    0.0%    0.0%  v8::internal::StackFrame::GetCallerState(v8::internal::StackFrame::State*) const
+      1    0.0%    0.0%  v8::internal::StackFrame::ComputeType(v8::internal::StackFrameIteratorBase const*, v8::internal::StackFrame::State*)
+      1    0.0%    0.0%  v8::internal::Script::GetLineNumber(v8::internal::Handle<v8::internal::Script>, int)
+      1    0.0%    0.0%  v8::internal::ScopeInfo::scope_type()
+      1    0.0%    0.0%  v8::internal::ScopeInfo::OuterScopeInfo()
+      1    0.0%    0.0%  v8::internal::Scope::Scope(v8::internal::Zone*, v8::internal::ScopeType, v8::internal::Handle<v8::internal::ScopeInfo>)
+      1    0.0%    0.0%  v8::internal::Scope::FinalizeBlockScope()
+      1    0.0%    0.0%  v8::internal::Scanner::ScanNumber(bool)
+      1    0.0%    0.0%  v8::internal::Scanner::Scan()
+      1    0.0%    0.0%  v8::internal::Scanner::PeekAhead()
+      1    0.0%    0.0%  v8::internal::Scanner::Next()
+      1    0.0%    0.0%  v8::internal::Scanner::IsDuplicateSymbol(v8::internal::DuplicateFinder*, v8::internal::AstValueFactory*) const
+      1    0.0%    0.0%  v8::internal::Runtime_SubString(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::Runtime_StringGetRawHashField(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::Runtime_JSCollectionGetTable(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::Runtime_InterpreterNewClosure(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::Runtime_GenericHash(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::RegExpStackScope::~RegExpStackScope()
+      1    0.0%    0.0%  v8::internal::PropertyCallbackArguments::Call(void (*)(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&), v8::internal::Handle<v8::internal::Name>)
+      1    0.0%    0.0%  v8::internal::PropertyArray::set(int, v8::internal::Object*)
+      1    0.0%    0.0%  v8::internal::PointersUpdatingVisitor::VisitRootPointers(v8::internal::Root, v8::internal::Object**, v8::internal::Object**)
+      1    0.0%    0.0%  v8::internal::PerIsolateAssertScope<(v8::internal::PerIsolateAssertType)0, true>::IsAllowed(v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::PreParser>::ExpectSemicolon(bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::PreParser>::ArrowFormalParametersUnexpectedToken()
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseStatement(v8::internal::ZoneList<v8::internal::AstRawString const*>*, v8::internal::AllowLabelledFunctionStatement, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParsePrimaryExpression(bool*, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseMemberExpressionContinuation(v8::internal::Expression*, bool*, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseFunctionBody(v8::internal::ZoneList<v8::internal::Statement*>*, v8::internal::AstRawString const*, int, v8::internal::ParserFormalParameters const&, v8::internal::FunctionKind, v8::internal::FunctionLiteral::FunctionType, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseExpressionOrLabelledStatement(v8::internal::ZoneList<v8::internal::AstRawString const*>*, v8::internal::AllowLabelledFunctionStatement, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseExpressionCoverGrammar(bool, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseArrayLiteral(bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ParseArguments(v8::internal::Scanner::Location*, bool, bool*)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ObjectLiteralChecker::CheckDuplicateProto(v8::internal::Token::Value)
+      1    0.0%    0.0%  v8::internal::ParserBase<v8::internal::Parser>::ArrowFormalParametersUnexpectedToken()
+      1    0.0%    0.0%  v8::internal::Parser::Parser(v8::internal::ParseInfo*)
+      1    0.0%    0.0%  v8::internal::PagedSpace::SizeOfObjects()
+      1    0.0%    0.0%  v8::internal::PagedSpace::CountTotalPages()
+      1    0.0%    0.0%  v8::internal::PagedSpace::Available()
+      1    0.0%    0.0%  v8::internal::OrderedHashTable<v8::internal::OrderedHashMap, 2>::EnsureGrowable(v8::internal::Handle<v8::internal::OrderedHashMap>)
+      1    0.0%    0.0%  v8::internal::Object::ConvertToNumber(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>)
+      1    0.0%    0.0%  v8::internal::NormalizedMapCache::Get(v8::internal::Handle<v8::internal::Map>, v8::internal::PropertyNormalizationMode)
+      1    0.0%    0.0%  v8::internal::MarkCompactCollector::ClearWeakCells(v8::internal::Object**, v8::internal::DependentCode**)
+      1    0.0%    0.0%  v8::internal::MapUpdater::FindTargetMap()
+      1    0.0%    0.0%  v8::internal::MapUpdater::BuildDescriptorArray()
+      1    0.0%    0.0%  v8::internal::Map::GetPrototypeChainRootMap(v8::internal::Isolate*) const
+      1    0.0%    0.0%  v8::internal::Map::GetOrCreatePrototypeChainValidityCell(v8::internal::Handle<v8::internal::Map>, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::Map::GeneralizeField(v8::internal::Handle<v8::internal::Map>, int, v8::internal::PropertyConstness, v8::internal::Representation, v8::internal::Handle<v8::internal::FieldType>)
+      1    0.0%    0.0%  v8::internal::Logger::NewEvent(char const*, void*, unsigned long)
+      1    0.0%    0.0%  v8::internal::LoadIC::LoadFullChain(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Smi>)
+      1    0.0%    0.0%  v8::internal::LayoutDescriptor::New(v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::DescriptorArray>, int)
+      1    0.0%    0.0%  v8::internal::KeyedLoadICNexus::FindFirstName() const
+      1    0.0%    0.0%  v8::internal::JsonParser<true>::ParseJsonValue()
+      1    0.0%    0.0%  v8::internal::JsonParser<true>::ParseJsonArray()
+      1    0.0%    0.0%  v8::internal::JSReceiver::OrdinaryDefineOwnProperty(v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyDescriptor*, v8::internal::Object::ShouldThrow)
+      1    0.0%    0.0%  v8::internal::JSObject::MigrateSlowToFast(v8::internal::Handle<v8::internal::JSObject>, int, char const*)
+      1    0.0%    0.0%  v8::internal::JSObject::LazyRegisterPrototypeUser(v8::internal::Handle<v8::internal::Map>, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::JSObject::GetElementsAccessor()
+      1    0.0%    0.0%  v8::internal::JSObject::DefineOwnPropertyIgnoreAttributes(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::internal::Object::ShouldThrow, v8::internal::JSObject::AccessorInfoHandling)
+      1    0.0%    0.0%  v8::internal::InternalizedStringTableCleaner::VisitPointers(v8::internal::HeapObject*, v8::internal::Object**, v8::internal::Object**)
+      1    0.0%    0.0%  v8::internal::InnerPointerToCodeCache::GcSafeFindCodeForInnerPointer(unsigned char*)
+      1    0.0%    0.0%  v8::internal::IncrementalMarking::RecordWriteOfCodeEntrySlow(v8::internal::JSFunction*, v8::internal::Object**, v8::internal::Code*)
+      1    0.0%    0.0%  v8::internal::IC::IsTransitionOfMonomorphicTarget(v8::internal::Map*, v8::internal::Map*)
+      1    0.0%    0.0%  v8::internal::IC::IC(v8::internal::IC::FrameDepth, v8::internal::Isolate*, v8::internal::FeedbackNexus*)
+      1    0.0%    0.0%  v8::internal::IC::GetHostFunction() const
+      1    0.0%    0.0%  v8::internal::Heap::ProcessPretenuringFeedback()
+      1    0.0%    0.0%  v8::internal::Heap::NotifyObjectLayoutChange(v8::internal::HeapObject*, v8::internal::PerThreadAssertScopeDebugOnly<(v8::internal::PerThreadAssertType)0, false> const&)
+      1    0.0%    0.0%  v8::internal::Heap::CopyBlock(unsigned char*, unsigned char*, int)
+      1    0.0%    0.0%  v8::internal::Heap::Contains(v8::internal::HeapObject*)
+      1    0.0%    0.0%  v8::internal::HashTable<v8::internal::StringTable, v8::internal::StringTableShape>::EntryForProbe(v8::internal::Object*, int, unsigned int)
+      1    0.0%    0.0%  v8::internal::Handle<v8::internal::String> v8::internal::JsonParser<true>::ScanJsonString<true>()
+      1    0.0%    0.0%  v8::internal::Handle<v8::internal::String> v8::internal::JsonParser<true>::ScanJsonString<false>()
+      1    0.0%    0.0%  v8::internal::Handle<v8::internal::AllocationSite> v8::internal::Factory::New<v8::internal::AllocationSite>(v8::internal::Handle<v8::internal::Map>, v8::internal::AllocationSpace)
+      1    0.0%    0.0%  v8::internal::FuncNameInferrer::PushVariableName(v8::internal::AstRawString const*)
+      1    0.0%    0.0%  v8::internal::FixedArray::set(int, v8::internal::Object*, v8::internal::WriteBarrierMode)
+      1    0.0%    0.0%  v8::internal::FindStringIndicesDispatch(v8::internal::Isolate*, v8::internal::String*, v8::internal::String*, v8::internal::List<int, v8::internal::FreeStoreAllocationPolicy>*, unsigned int)
+      1    0.0%    0.0%  v8::internal::FieldType::IsClass()
+      1    0.0%    0.0%  v8::internal::FieldType::Any(v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::FieldType::Any()
+      1    0.0%    0.0%  v8::internal::FeedbackNexus::ExtractMaps(std::vector<v8::internal::Handle<v8::internal::Map>, std::allocator<v8::internal::Handle<v8::internal::Map> > >*) const
+      1    0.0%    0.0%  v8::internal::FeedbackNexus::ConfigureMonomorphic(v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Map>, v8::internal::Handle<v8::internal::Object>)
+      1    0.0%    0.0%  v8::internal::Factory::ObjectLiteralMapFromCache(v8::internal::Handle<v8::internal::Context>, int)
+      1    0.0%    0.0%  v8::internal::Factory::NewTuple3(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>)
+      1    0.0%    0.0%  v8::internal::Factory::NewTransitionArray(int)
+      1    0.0%    0.0%  v8::internal::Factory::NewConstantElementsPair(v8::internal::ElementsKind, v8::internal::Handle<v8::internal::FixedArrayBase>)
+      1    0.0%    0.0%  v8::internal::Factory::NewBlockContext(v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Context>, v8::internal::Handle<v8::internal::ScopeInfo>)
+      1    0.0%    0.0%  v8::internal::Factory::CopyPropertyArrayAndGrow(v8::internal::Handle<v8::internal::PropertyArray>, int, v8::internal::PretenureFlag)
+      1    0.0%    0.0%  v8::internal::Factory::CopyJSObjectWithAllocationSite(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::AllocationSite>)
+      1    0.0%    0.0%  v8::internal::ExpressionClassifier<v8::internal::ParserTypes<v8::internal::Parser> >::Accumulate(v8::internal::ExpressionClassifier<v8::internal::ParserTypes<v8::internal::Parser> >*, unsigned int, bool)
+      1    0.0%    0.0%  v8::internal::Expression::IsUndefinedLiteral() const
+      1    0.0%    0.0%  v8::internal::Expression::IsPropertyName() const
+      1    0.0%    0.0%  v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)
+      1    0.0%    0.0%  v8::internal::DescriptorArray::SetSortedKey(int, int)
+      1    0.0%    0.0%  v8::internal::DependentCode::MarkCodeForDeoptimization(v8::internal::Isolate*, v8::internal::DependentCode::DependencyGroup)
+      1    0.0%    0.0%  v8::internal::DependentCode::Compact()
+      1    0.0%    0.0%  v8::internal::Deoptimizer::TableEntryGenerator::Generate()
+      1    0.0%    0.0%  v8::internal::DeoptimizationInputData::New(v8::internal::Isolate*, int, v8::internal::PretenureFlag)
+      1    0.0%    0.0%  v8::internal::CopiedRangesList::Insert(v8::internal::HeapObject*, int)
+      1    0.0%    0.0%  v8::internal::ContextSlotCache::Lookup(v8::internal::Object*, v8::internal::String*, v8::internal::VariableMode*, v8::internal::InitializationFlag*, v8::internal::MaybeAssignedFlag*)
+      1    0.0%    0.0%  v8::internal::Compiler::GetSharedFunctionInfo(v8::internal::FunctionLiteral*, v8::internal::Handle<v8::internal::Script>, v8::internal::CompilationInfo*)
+      1    0.0%    0.0%  v8::internal::CompilationInfo::CompilationInfo(v8::internal::Zone*, v8::internal::ParseInfo*, v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSFunction>)
+      1    0.0%    0.0%  v8::internal::CallICNexus::ComputeCallFrequency()
+      1    0.0%    0.0%  v8::internal::Builtins::InterpreterEntryTrampoline()
+      1    0.0%    0.0%  v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.0%    0.0%  v8::internal::BufferedUtf16CharacterStream::ReadBlock()
+      1    0.0%    0.0%  v8::internal::BoilerplateDescription::value(int) const
+      1    0.0%    0.0%  v8::internal::BoilerplateDescription::name(int) const
+      1    0.0%    0.0%  v8::internal::Bitmap::Clear()
+      1    0.0%    0.0%  v8::internal::BaseNameDictionary<v8::internal::NameDictionary, v8::internal::NameDictionaryShape>::Add(v8::internal::Handle<v8::internal::NameDictionary>, v8::internal::Handle<v8::internal::Name>, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyDetails, int*)
+      1    0.0%    0.0%  v8::internal::AstValueFactory::GetString(unsigned int, bool, v8::internal::Vector<unsigned char const>)
+      1    0.0%    0.0%  v8::internal::Assembler::GetCode(v8::internal::Isolate*, v8::internal::CodeDesc*)
+      1    0.0%    0.0%  v8::internal::ArrayLiteral::InitDepthAndFlags()
+      1    0.0%    0.0%  v8::internal::AllocationResult v8::internal::Heap::CopyArrayAndGrow<v8::internal::PropertyArray>(v8::internal::PropertyArray*, int, v8::internal::PretenureFlag)
+      1    0.0%    0.0%  v8::internal::Accessors::FunctionPrototypeGetter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  v8::base::TemplateHashMapImpl<void*, void*, v8::base::KeyEqualityMatcher<void*>, v8::base::DefaultAllocationPolicy>::Resize(v8::base::DefaultAllocationPolicy)
+      1    0.0%    0.0%  v8::V8::Eternalize(v8::Isolate*, v8::Value*)
+      1    0.0%    0.0%  u_isupper_59
+      1    0.0%    0.0%  strlen
+      1    0.0%    0.0%  strchrnul
+      1    0.0%    0.0%  std::vector<v8::internal::SourcePosition, v8::internal::ZoneAllocator<v8::internal::SourcePosition> >::_M_fill_insert(__gnu_cxx::__normal_iterator<v8::internal::SourcePosition*, std::vector<v8::internal::SourcePosition, v8::internal::ZoneAllocator<v8::internal::SourcePosition> > >, unsigned long, v8::internal::SourcePosition const&)
+      1    0.0%    0.0%  std::pair<std::_Rb_tree_iterator<std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*> const, v8::internal::FeedbackSlot> >, bool> std::_Rb_tree<std::pair<v8::internal::TypeofMode, v8::internal::Variable*>, std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*> const, v8::internal::FeedbackSlot>, std::_Select1st<std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*> const, v8::internal::FeedbackSlot> >, std::less<std::pair<v8::internal::TypeofMode, v8::internal::Variable*> >, v8::internal::ZoneAllocator<std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*> const, v8::internal::FeedbackSlot> > >::_M_insert_unique<std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*>, v8::internal::FeedbackSlot>&>(std::pair<std::pair<v8::internal::TypeofMode, v8::internal::Variable*>, v8::internal::FeedbackSlot>&)
+      1    0.0%    0.0%  readlink
+      1    0.0%    0.0%  pthread_sigmask
+      1    0.0%    0.0%  node::TTYWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  memchr
+      1    0.0%    0.0%  do_futex_wait.constprop.3
+      1    0.0%    0.0%  __lll_lock_wait
+      1    0.0%    0.0%  __GI___pthread_mutex_unlock
+      1    0.0%    0.0%  __GI___pthread_getspecific
+      1    0.0%    0.0%  _IO_file_write
+
+ [Summary]:
+   ticks  total  nonlib   name
+    980   27.2%   37.0%  JavaScript
+   1386   38.5%   52.3%  C++
+    297    8.2%   11.2%  GC
+    952   26.4%          Shared libraries
+    285    7.9%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+    682   34.4%   18.9%  v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)
+    271   13.7%    7.5%  v8::internal::Runtime_CreateObjectLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+    270   13.6%    7.5%  v8::internal::Builtin_ObjectAssign(int, v8::internal::Object**, v8::internal::Isolate*)
+    157    7.9%    4.4%  v8::internal::Runtime_KeyedGetProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+    116    5.9%    3.2%  v8::internal::Runtime_StringReplaceGlobalRegExpWithString(int, v8::internal::Object**, v8::internal::Isolate*)
+    111    5.6%    3.1%  v8::internal::Runtime_CompileLazy(int, v8::internal::Object**, v8::internal::Isolate*)
+    106    5.3%    2.9%  v8::internal::Runtime_CompileOptimized_Concurrent(int, v8::internal::Object**, v8::internal::Isolate*)
+     64    3.2%    1.8%  v8::internal::Builtin_JsonParse(int, v8::internal::Object**, v8::internal::Isolate*)
+     32    1.6%    0.9%  v8::internal::Builtin_StringPrototypeTrim(int, v8::internal::Object**, v8::internal::Isolate*)
+     31    1.6%    0.9%  v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)
+     30    1.5%    0.8%  v8::internal::Runtime_StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+     27    1.4%    0.7%  v8::internal::Runtime_LoadIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+      9    0.5%    0.2%  v8::internal::Runtime_StringSplit(int, v8::internal::Object**, v8::internal::Isolate*)
+      8    0.4%    0.2%  v8::internal::Runtime_KeyedLoadIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+      7    0.4%    0.2%  v8::internal::Builtin_StringPrototypeIncludes(int, v8::internal::Object**, v8::internal::Isolate*)
+      6    0.3%    0.2%  v8::internal::Runtime_StackGuard(int, v8::internal::Object**, v8::internal::Isolate*)
+      4    0.2%    0.1%  v8::internal::Runtime_NewObject(int, v8::internal::Object**, v8::internal::Isolate*)
+      4    0.2%    0.1%  v8::internal::Runtime_KeyedStoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+      4    0.2%    0.1%  v8::internal::Builtin_StringPrototypeEndsWith(int, v8::internal::Object**, v8::internal::Isolate*)
+      3    0.2%    0.1%  v8::internal::Runtime_SubString(int, v8::internal::Object**, v8::internal::Isolate*)
+      3    0.2%    0.1%  v8::internal::Runtime_RegExpExec(int, v8::internal::Object**, v8::internal::Isolate*)
+      3    0.2%    0.1%  v8::internal::Builtin_StringPrototypeLastIndexOf(int, v8::internal::Object**, v8::internal::Isolate*)
+      3    0.2%    0.1%  v8::internal::Builtin_ArraySlice(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::StringTable::LookupStringIfExists_NoAllocate(v8::internal::String*)
+      2    0.1%    0.1%  v8::internal::Runtime_ToString(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_PushBlockContext(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_MapGrow(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_InterpreterNewClosure(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_FixedArraySet(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_FixedArrayGet(int, v8::internal::Object**, v8::internal::Isolate*)
+      2    0.1%    0.1%  v8::internal::Runtime_CreateArrayLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_StringGetRawHashField(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_StringEqual(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_SetProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_NumberToString(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_JSCollectionGetTable(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_GenericHash(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_DefineDataPropertyInLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_DefineClass(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Runtime_CreateRegExpLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Heap::RecordWrite(v8::internal::Object*, int, v8::internal::Object*)
+      1    0.1%    0.0%  v8::internal::Builtin_ObjectDefineProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Builtin_ObjectDefineProperties(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Builtin_NumberPrototypeToString(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Builtin_JsonStringify(int, v8::internal::Object**, v8::internal::Isolate*)
+      1    0.1%    0.0%  v8::internal::Builtin_ArrayUnshift(int, v8::internal::Object**, v8::internal::Isolate*)
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    872   24.2%  /usr/bin/node
+    680   78.0%    v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)
+    547   80.4%      Function: ~createScript vm.js:79:22
+    547  100.0%        Function: ~runInThisContext vm.js:138:26
+    547  100.0%          Function: ~Module._compile module.js:592:37
+    547  100.0%            Function: ~Module._extensions..js module.js:644:37
+    107   15.7%      Function: ~runInThisContext bootstrap_node.js:495:28
+    107  100.0%        Function: ~NativeModule.compile bootstrap_node.js:584:44
+    107  100.0%          Function: ~NativeModule.require bootstrap_node.js:516:34
+     17   15.9%            Function: ~<anonymous> module.js:1:11
+     13   12.1%            Function: ~<anonymous> tty.js:1:11
+     12   11.2%            Function: ~<anonymous> util.js:1:11
+     11   10.3%            Function: ~<anonymous> stream.js:1:11
+      9    8.4%            Function: ~startup bootstrap_node.js:12:19
+      7    6.5%            Function: ~<anonymous> internal/loader/ModuleRequest.js:1:11
+      7    6.5%            Function: ~<anonymous> fs.js:1:11
+      5    4.7%            Function: ~setupGlobalConsole bootstrap_node.js:306:30
+      4    3.7%            Function: ~setupGlobalTimeouts bootstrap_node.js:296:31
+      3    2.8%            Function: ~setup_performance internal/process.js:14:27
+      3    2.8%            Function: ~setupGlobalVariables bootstrap_node.js:251:32
+      3    2.8%            Function: ~<anonymous> timers.js:1:11
+      3    2.8%            Function: ~<anonymous> readline.js:1:11
+      2    1.9%            Function: ~setupNextTick internal/process/next_tick.js:49:23
+      2    1.9%            Function: ~<anonymous> internal/encoding.js:1:11
+      9    1.3%      Function: ~stringSlice buffer.js:555:21
+      9  100.0%        Function: ~Buffer.toString buffer.js:609:37
+      9  100.0%          Function: ~fs.readFileSync fs.js:548:27
+      7   77.8%            Function: ~Module._extensions..js module.js:644:37
+      2   22.2%            Function: ~Module._extensions..json module.js:651:39
+     62    7.1%    v8::internal::Builtin_ObjectAssign(int, v8::internal::Object**, v8::internal::Isolate*)
+     20   32.3%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      8   40.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      7   87.5%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      7  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   12.5%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      6   30.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2   10.0%        LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   10.0%        Function: ~getWeather /home/nick/pokemon/battle/sim/battle.js:181:12
+      1   50.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   50.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    5.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%          Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1  100.0%            Function: ~chooseMove /home/nick/pokemon/battle/sim/side.js:265:12
+      1    5.0%        Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     19   30.6%      LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      8   42.1%        LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      8  100.0%          LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      7   87.5%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   12.5%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      7   36.8%        Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      6   85.7%          Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      3   50.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   33.3%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   16.7%            Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1   14.3%          LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      4   21.1%        Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      3   75.0%          Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2   66.7%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   33.3%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   25.0%          LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     18   29.0%      LazyCompile: *Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+      9   50.0%        Function: ~PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      8   88.9%          Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      3   37.5%            Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      2   25.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   12.5%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   12.5%            Function: ~getTerrain /home/nick/pokemon/battle/sim/battle.js:233:12
+      1   12.5%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   11.1%          LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%            Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      7   38.9%        LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      7  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6   85.7%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   14.3%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2   11.1%        Function: ~Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      1   50.0%          Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%            Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1   50.0%          Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%            Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2    3.2%      LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      2  100.0%        Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    1.6%      LazyCompile: *PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      1  100.0%        LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%          Function: ~getSideCondition /home/nick/pokemon/battle/sim/side.js:222:18
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    1.6%      LazyCompile: *Item /home/nick/pokemon/battle/sim/dex-data.js:246:13
+      1  100.0%        Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%          Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    1.6%      Function: ~Template /home/nick/pokemon/battle/sim/dex-data.js:340:13
+      1  100.0%        Function: ~getTemplate /home/nick/pokemon/battle/sim/dex.js:319:13
+      1  100.0%          Function: ~Pokemon /home/nick/pokemon/battle/sim/pokemon.js:12:13
+      1  100.0%            Function: ~Side /home/nick/pokemon/battle/sim/side.js:44:13
+     42    4.8%    v8::internal::Runtime_CreateObjectLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+     24   57.1%      Function: ~<anonymous> /home/nick/pokemon/battle/data/learnsets.js:1:11
+     24  100.0%        Function: ~Module._compile module.js:592:37
+     24  100.0%          Function: ~Module._extensions..js module.js:644:37
+     24  100.0%            Function: ~Module.load module.js:545:33
+      9   21.4%      Function: ~<anonymous> /home/nick/pokemon/battle/data/pokedex.js:1:11
+      9  100.0%        Function: ~Module._compile module.js:592:37
+      9  100.0%          Function: ~Module._extensions..js module.js:644:37
+      9  100.0%            Function: ~Module.load module.js:545:33
+      4    9.5%      Function: ~<anonymous> /home/nick/pokemon/battle/data/formats-data.js:1:11
+      4  100.0%        Function: ~Module._compile module.js:592:37
+      4  100.0%          Function: ~Module._extensions..js module.js:644:37
+      4  100.0%            Function: ~Module.load module.js:545:33
+      3    7.1%      Function: ~<anonymous> /home/nick/pokemon/battle/data/moves.js:1:11
+      3  100.0%        Function: ~Module._compile module.js:592:37
+      3  100.0%          Function: ~Module._extensions..js module.js:644:37
+      3  100.0%            Function: ~Module.load module.js:545:33
+      2    4.8%      Function: ~<anonymous> /home/nick/pokemon/battle/data/items.js:1:11
+      2  100.0%        Function: ~Module._compile module.js:592:37
+      2  100.0%          Function: ~Module._extensions..js module.js:644:37
+      2  100.0%            Function: ~Module.load module.js:545:33
+     25    2.9%    v8::internal::Runtime_StringReplaceGlobalRegExpWithString(int, v8::internal::Object**, v8::internal::Isolate*)
+     25  100.0%      Builtin: StringPrototypeReplace
+     12   48.0%        LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      4   33.3%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   16.7%          LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   16.7%          LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   16.7%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    8.3%          Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    8.3%          Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5   20.0%        LazyCompile: *getId /home/nick/pokemon/battle/sim/dex-data.js:46:14
+      1   20.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   20.0%          LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   20.0%          LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%            Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1   20.0%          Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%            LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1   20.0%          Function: ~getAbility /home/nick/pokemon/battle/sim/dex.js:585:12
+      1  100.0%            Function: ~getAbility /home/nick/pokemon/battle/sim/pokemon.js:1081:12
+      3   12.0%        LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      2   66.7%          LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      2  100.0%            LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1   33.3%          Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%            Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      3   12.0%        LazyCompile: *Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+      1   33.3%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   33.3%          LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   33.3%          Function: ~Item /home/nick/pokemon/battle/sim/dex-data.js:246:13
+      1  100.0%            Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1    4.0%        LazyCompile: *getAbility /home/nick/pokemon/battle/sim/dex.js:585:12
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    4.0%        Function: ~getId /home/nick/pokemon/battle/sim/dex-data.js:46:14
+      1  100.0%          Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     24    2.8%    v8::internal::Runtime_KeyedGetProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+     18   75.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     17   94.4%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     13   76.5%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+     13  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      4   23.5%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    5.6%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~getDamage /home/nick/pokemon/battle/sim/battle.js:1689:11
+      3   12.5%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   66.7%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   33.3%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1    4.2%      LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    4.2%      Function: ~getSideCondition /home/nick/pokemon/battle/sim/side.js:222:18
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    4.2%      Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%        LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+
+    285    7.9%  UNKNOWN
+
+     94    2.6%  Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     64   68.1%    Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     46   71.9%      Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+     46  100.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+     10   21.7%          Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      8   80.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      2   20.0%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      9   19.6%          Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      9  100.0%            Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      8   17.4%          Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      8  100.0%            Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      5   10.9%          Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      5  100.0%            Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      3    6.5%          Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      3  100.0%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      2    4.3%          Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      2  100.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      2    4.3%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      2  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      2    4.3%          Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1   50.0%            Function: ~getRequestData /home/nick/pokemon/battle/sim/pokemon.js:528:16
+      1   50.0%            Function: ~chooseMove /home/nick/pokemon/battle/sim/side.js:265:12
+      1    2.2%          Function: ~runStatusImmunity /home/nick/pokemon/battle/sim/pokemon.js:1300:19
+      1  100.0%            Function: ~addVolatile /home/nick/pokemon/battle/sim/pokemon.js:1103:13
+      1    2.2%          Function: ~runImmunity /home/nick/pokemon/battle/sim/pokemon.js:1269:13
+      1  100.0%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1    2.2%          Function: ~runEffectiveness /home/nick/pokemon/battle/sim/pokemon.js:1259:18
+      1  100.0%            Function: ~modifyDamage /home/nick/pokemon/battle/sim/battle.js:1820:14
+      1    2.2%          Function: ~resolvePriority /home/nick/pokemon/battle/sim/battle.js:2066:17
+      1  100.0%            Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1    2.2%          Function: ~getDamage /home/nick/pokemon/battle/sim/battle.js:1689:11
+      1  100.0%            Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+     18   28.1%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     18  100.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+     18  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      5   27.8%            Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      4   22.2%            Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      2   11.1%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      2   11.1%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1    5.6%            Function: ~runEffectiveness /home/nick/pokemon/battle/sim/pokemon.js:1259:18
+      1    5.6%            Function: ~modifyDamage /home/nick/pokemon/battle/sim/battle.js:1820:14
+      1    5.6%            Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1    5.6%            Function: ~getDamage /home/nick/pokemon/battle/sim/battle.js:1689:11
+      1    5.6%            Function: ~damage /home/nick/pokemon/battle/sim/battle.js:1511:8
+     30   31.9%    Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+     30  100.0%      Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      8   26.7%        Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      7   87.5%          Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      7  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1   12.5%          Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1  100.0%            Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      4   13.3%        Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      4  100.0%          Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      4  100.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      4   13.3%        Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      4  100.0%          Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      4  100.0%            Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      4   13.3%        Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      4  100.0%          Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      4  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      2    6.7%        Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      2  100.0%          Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      2  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      2    6.7%        Function: ~getDamage /home/nick/pokemon/battle/sim/battle.js:1689:11
+      2  100.0%          Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      2  100.0%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1    3.3%        Function: ~setStatus /home/nick/pokemon/battle/sim/pokemon.js:886:11
+      1  100.0%          Function: ~trySetStatus /home/nick/pokemon/battle/sim/pokemon.js:875:14
+      1  100.0%            Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      1    3.3%        Function: ~runImmunity /home/nick/pokemon/battle/sim/pokemon.js:1269:13
+      1  100.0%          Function: ~getDamage /home/nick/pokemon/battle/sim/battle.js:1689:11
+      1  100.0%            Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      1    3.3%        Function: ~resolvePriority /home/nick/pokemon/battle/sim/battle.js:2066:17
+      1  100.0%          Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1  100.0%            Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1    3.3%        Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      1  100.0%          Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1  100.0%            Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      1    3.3%        Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1  100.0%          Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      1  100.0%            Function: ~resolvePriority /home/nick/pokemon/battle/sim/battle.js:2066:17
+      1    3.3%        Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1  100.0%          Function: ~getRequestData /home/nick/pokemon/battle/sim/pokemon.js:528:16
+      1  100.0%            Function: ~activeData.p2.active.map.pokemon /home/nick/pokemon/battle/sim/battle.js:998:36
+
+     81    2.2%  StoreIC: A store IC from the snapshot
+     29   35.8%    LazyCompile: *Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+     13   44.8%      Function: ~PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+     12   92.3%        Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      7   58.3%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      7  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   25.0%          Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      3  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    8.3%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1    8.3%          Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    7.7%        LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%          Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      8   27.6%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      8  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      8  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      8  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      4   13.8%      LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      3   75.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   25.0%        Function: ~canZMove /home/nick/pokemon/battle/data/scripts.js:818:21
+      1  100.0%          Function: ~getRequestData /home/nick/pokemon/battle/sim/pokemon.js:528:16
+      1  100.0%            Function: ~chooseMove /home/nick/pokemon/battle/sim/side.js:265:12
+      3   10.3%      Function: ~Item /home/nick/pokemon/battle/sim/dex-data.js:246:13
+      3  100.0%        Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      3  100.0%          Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      3  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    3.4%      Function: ~Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      1  100.0%        Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%          Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     27   33.3%    LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+     21   77.8%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+     12   57.1%        LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      8   66.7%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      8  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4   33.3%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      9   42.9%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      9  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      9  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   11.1%      Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      2   66.7%        Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   33.3%        LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      3   11.1%      Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      3  100.0%        LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      3  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     14   17.3%    LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      5   35.7%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   60.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      3  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   40.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   50.0%            Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      1   50.0%            Function: ~damage /home/nick/pokemon/battle/sim/battle.js:1511:8
+      4   28.6%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   50.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   50.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   50.0%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1   50.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      3   21.4%      LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      3  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2   14.3%      Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      2  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2    2.5%    LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      2  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      2  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2    2.5%    Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1   50.0%      LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   50.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1    1.2%    LazyCompile: *Item /home/nick/pokemon/battle/sim/dex-data.js:246:13
+      1  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%        Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    1.2%    Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%      Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1  100.0%        Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      1  100.0%          Function: ~resolvePriority /home/nick/pokemon/battle/sim/battle.js:2066:17
+      1  100.0%            Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1    1.2%    Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    1.2%    Function: ~dataOnly /home/nick/pokemon/battle/sim/pokemon.js:181:13
+      1  100.0%      Function: ~dataOnly /home/nick/pokemon/battle/sim/side.js:109:13
+      1  100.0%        Function: ~dataOnly /home/nick/pokemon/battle/sim/battle.js:81:13
+      1  100.0%          Function: ~<anonymous> /home/nick/pokemon/battle/test.js:1:11
+      1  100.0%            Function: ~Module._compile module.js:592:37
+      1    1.2%    Function: ~Template /home/nick/pokemon/battle/sim/dex-data.js:340:13
+      1  100.0%      Function: ~getTemplate /home/nick/pokemon/battle/sim/dex.js:319:13
+      1  100.0%        Function: ~Pokemon /home/nick/pokemon/battle/sim/pokemon.js:12:13
+      1  100.0%          Function: ~Side /home/nick/pokemon/battle/sim/side.js:44:13
+      1  100.0%            Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1    1.2%    Function: ~PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      1  100.0%      Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%        Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    1.2%    Function: ~Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      1  100.0%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+
+     74    2.1%  Builtin: ObjectHasOwnProperty
+     52   70.3%    LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+     24   46.2%      LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+     13   54.2%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     13  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     13  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     10   41.7%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     10  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     10  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    4.2%        Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      1  100.0%          Function: ~updateSpeed /home/nick/pokemon/battle/sim/pokemon.js:233:13
+      1  100.0%            Function: ~updateSpeed /home/nick/pokemon/battle/sim/battle.js:309:13
+     17   32.7%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     15   88.2%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     15  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+     15  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   11.8%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   50.0%            Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1   50.0%            Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      7   13.5%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6   85.7%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      6  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   14.3%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      4    7.7%      Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      4  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     14   18.9%    Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      7   50.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6   85.7%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      6  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   14.3%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      5   35.7%      Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      5  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    7.1%      Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    7.1%      Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      3    4.1%    Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      3  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      3  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   66.7%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   33.3%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2    2.7%    LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      2  100.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   50.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   50.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1    1.4%    LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1    1.4%    LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    1.4%    Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%      Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+
+     69    1.9%  /lib/x86_64-linux-gnu/libc-2.23.so
+     12   17.4%    v8::internal::Runtime_KeyedGetProperty(int, v8::internal::Object**, v8::internal::Isolate*)
+      5   41.7%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      5  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   16.7%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   16.7%      LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1   50.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   50.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    8.3%      Function: ~singleEvent /home/nick/pokemon/battle/sim/battle.js:413:13
+      1  100.0%        Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      1  100.0%          Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1  100.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1    8.3%      Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    8.3%      Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%        Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1  100.0%          Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+     10   14.5%    v8::internal::Runtime_CompileLazy(int, v8::internal::Object**, v8::internal::Isolate*)
+      3   30.0%      Function: ~startup bootstrap_node.js:12:19
+      3  100.0%        Function: ~<anonymous> bootstrap_node.js:10:10
+      1   10.0%      Function: ~setup_cpuUsage internal/process.js:19:24
+      1  100.0%        Function: ~startup bootstrap_node.js:12:19
+      1  100.0%          Function: ~<anonymous> bootstrap_node.js:10:10
+      1   10.0%      Function: ~realpathSync fs.js:1571:40
+      1  100.0%        Function: ~toRealPath module.js:155:20
+      1  100.0%          Function: ~Module._findPath module.js:174:28
+      1  100.0%            Function: ~Module._resolveFilename module.js:506:35
+      1   10.0%      Function: ~isChoiceDone /home/nick/pokemon/battle/sim/side.js:253:14
+      1  100.0%        Function: ~makeRequest /home/nick/pokemon/battle/sim/battle.js:939:13
+      1  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1   10.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~residualEvent /home/nick/pokemon/battle/sim/battle.js:394:15
+      1  100.0%          Function: ~start /home/nick/pokemon/battle/sim/battle.js:1406:7
+      1  100.0%            Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1   10.0%      Function: ~__dirname perf_hooks.js:195:17
+      1  100.0%        Function: ~Performance perf_hooks.js:316:14
+      1  100.0%          Function: ~<anonymous> perf_hooks.js:1:11
+      1  100.0%            Function: ~NativeModule.compile bootstrap_node.js:584:44
+      1   10.0%      Function: ~NativeModule.compile bootstrap_node.js:584:44
+      1  100.0%        Function: ~NativeModule.require bootstrap_node.js:516:34
+      1  100.0%          Function: ~startup bootstrap_node.js:12:19
+      1  100.0%            Function: ~<anonymous> bootstrap_node.js:10:10
+      1   10.0%      Function: ~<anonymous> /home/nick/pokemon/battle/test.js:1:11
+      1  100.0%        Function: ~Module._compile module.js:592:37
+      1  100.0%          Function: ~Module._extensions..js module.js:644:37
+      1  100.0%            Function: ~Module.load module.js:545:33
+      4    5.8%    v8::internal::Runtime_CompileOptimized_Concurrent(int, v8::internal::Object**, v8::internal::Isolate*)
+      2   50.0%      Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   50.0%          Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      1  100.0%            Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1   50.0%          Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1  100.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1   25.0%      Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   25.0%      Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%        Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%          Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      3    4.3%    v8::internal::Runtime_StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+      1   33.3%      Function: ~makeRequest /home/nick/pokemon/battle/sim/battle.js:939:13
+      1  100.0%        Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%          Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1   33.3%      Function: ~Pokemon /home/nick/pokemon/battle/sim/pokemon.js:12:13
+      1  100.0%        Function: ~Side /home/nick/pokemon/battle/sim/side.js:44:13
+      1  100.0%          Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1  100.0%            Function: ~<anonymous> /home/nick/pokemon/battle/test.js:1:11
+      1   33.3%      Function: ~<anonymous> internal/fs.js:1:11
+      1  100.0%        Function: ~NativeModule.compile bootstrap_node.js:584:44
+      1  100.0%          Function: ~NativeModule.require bootstrap_node.js:516:34
+      1  100.0%            Function: ~<anonymous> fs.js:1:11
+      3    4.3%    v8::internal::Builtin_JsonParse(int, v8::internal::Object**, v8::internal::Isolate*)
+      3  100.0%      Function: ~Module._extensions..json module.js:651:39
+      3  100.0%        Function: ~Module.load module.js:545:33
+      3  100.0%          Function: ~tryModuleLoad module.js:494:23
+      3  100.0%            Function: ~Module._load module.js:440:24
+      2    2.9%    v8::internal::Runtime_StackGuard(int, v8::internal::Object**, v8::internal::Isolate*)
+      1   50.0%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   50.0%      Function: ~get data /home/nick/pokemon/battle/sim/dex.js:157:10
+      1  100.0%        Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2    2.9%    v8::internal::Runtime_LoadIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)
+      1   50.0%      Function: ~getTarget /home/nick/pokemon/battle/sim/battle.js:1940:11
+      1  100.0%        Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1  100.0%          Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1   50.0%      Function: ~Move /home/nick/pokemon/battle/sim/dex-data.js:528:13
+      1  100.0%        Function: ~getMove /home/nick/pokemon/battle/sim/dex.js:381:9
+      1  100.0%          Function: ~Pokemon /home/nick/pokemon/battle/sim/pokemon.js:12:13
+      1  100.0%            Function: ~Side /home/nick/pokemon/battle/sim/side.js:44:13
+      1    1.4%    v8::internal::Runtime_SubString(int, v8::internal::Object**, v8::internal::Isolate*)
+      1  100.0%      Builtin: StringPrototypeSubstr
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1    1.4%    v8::internal::Runtime_StringReplaceGlobalRegExpWithString(int, v8::internal::Object**, v8::internal::Isolate*)
+      1  100.0%      Builtin: StringPrototypeReplace
+      1  100.0%        LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      1  100.0%          Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      1  100.0%            Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1    1.4%    v8::internal::Runtime_StringEqual(int, v8::internal::Object**, v8::internal::Isolate*)
+      1  100.0%      Builtin: MapGet
+      1  100.0%        Function: ~stat module.js:47:14
+      1  100.0%          Function: ~Module._findPath module.js:174:28
+      1  100.0%            Function: ~Module._resolveFilename module.js:506:35
+      1    1.4%    v8::internal::Runtime_CreateObjectLiteral(int, v8::internal::Object**, v8::internal::Isolate*)
+      1  100.0%      Function: ~<anonymous> /home/nick/pokemon/battle/data/learnsets.js:1:11
+      1  100.0%        Function: ~Module._compile module.js:592:37
+      1  100.0%          Function: ~Module._extensions..js module.js:644:37
+      1  100.0%            Function: ~Module.load module.js:545:33
+
+     65    1.8%  v8::internal::IncrementalMarking::Step(unsigned long, v8::internal::IncrementalMarking::CompletionAction, v8::internal::IncrementalMarking::ForceCompletionAction, v8::internal::StepOrigin)
+
+     59    1.6%  LoadIC: A load IC from the snapshot
+     25   42.4%    LazyCompile: *Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+     15   60.0%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+     11   73.3%        LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      6   54.5%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5   45.5%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4   26.7%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2   50.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   50.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6   24.0%      Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      4   66.7%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      4  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   33.3%        LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4   16.0%      Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      2   50.0%        LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      2  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      2  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      2   50.0%        Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1   50.0%          Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1   50.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+     16   27.1%    LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      6   37.5%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      6  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      4   25.0%      LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      4  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   75.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   25.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      4   25.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      4  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1    6.3%      Function: ~getWeather /home/nick/pokemon/battle/sim/battle.js:181:12
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1    6.3%      Function: ~getTerrain /home/nick/pokemon/battle/sim/battle.js:233:12
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      8   13.6%    LazyCompile: *Effect /home/nick/pokemon/battle/sim/dex-data.js:63:13
+      4   50.0%      LazyCompile: *getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      4  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2   25.0%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      2   25.0%      Function: ~PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      2  100.0%        Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      2  100.0%          Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3    5.1%    LazyCompile: *getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      3  100.0%      Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      3  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2    3.4%    LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   50.0%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~calculateStat /home/nick/pokemon/battle/sim/pokemon.js:236:15
+      1   50.0%      Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%          Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1  100.0%            Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      2    3.4%    LazyCompile: *getId /home/nick/pokemon/battle/sim/dex-data.js:46:14
+      2  100.0%      Function: ~banNames.map.v /home/nick/pokemon/battle/sim/dex.js:752:31
+      2  100.0%        Builtin: ArrayMap
+      2  100.0%          LazyCompile: *getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      2  100.0%            Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1    1.7%    LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    1.7%    LazyCompile: *getAbility /home/nick/pokemon/battle/sim/pokemon.js:1081:12
+      1  100.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1    1.7%    LazyCompile: *PureEffect /home/nick/pokemon/battle/sim/dex-data.js:234:13
+      1  100.0%      LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%        Function: ~getSideCondition /home/nick/pokemon/battle/sim/side.js:222:18
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+
+     52    1.4%  Builtin: InterpreterEntryTrampoline
+     19   36.5%    LazyCompile: *getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      9   47.4%      LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      5   55.6%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   33.3%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   11.1%        Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      1  100.0%          Function: ~updateSpeed /home/nick/pokemon/battle/sim/pokemon.js:233:13
+      1  100.0%            Function: ~insertQueue /home/nick/pokemon/battle/sim/battle.js:2155:13
+      5   26.3%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      5  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      5  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      3   15.8%      LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2   66.7%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      2  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   33.3%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~moveHit /home/nick/pokemon/battle/data/scripts.js:531:20
+      1    5.3%      Function: ~getVolatile /home/nick/pokemon/battle/sim/pokemon.js:1153:13
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    5.3%      Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      6   11.5%    Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4   66.7%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3   75.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      3  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   33.3%            Function: ~tryMoveHit /home/nick/pokemon/battle/data/scripts.js:284:23
+      1   33.3%            Function: ~runImmunity /home/nick/pokemon/battle/sim/pokemon.js:1269:13
+      1   33.3%            Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      1   25.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   16.7%      Function: ~residualEvent /home/nick/pokemon/battle/sim/battle.js:394:15
+      1  100.0%        Function: ~start /home/nick/pokemon/battle/sim/battle.js:1406:7
+      1  100.0%          Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1  100.0%            Function: ~<anonymous> /home/nick/pokemon/battle/test.js:1:11
+      1   16.7%      Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%          Function: ~getStat /home/nick/pokemon/battle/sim/pokemon.js:277:9
+      1  100.0%            Function: ~getDecisionSpeed /home/nick/pokemon/battle/sim/pokemon.js:319:18
+      6   11.5%    Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1   16.7%      LazyCompile: *getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   16.7%      Function: ~getTerrain /home/nick/pokemon/battle/sim/battle.js:233:12
+      1  100.0%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   16.7%      Function: ~getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1   16.7%      Function: ~getSideCondition /home/nick/pokemon/battle/sim/side.js:222:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   16.7%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1   16.7%      Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      4    7.7%    Function: ~get data /home/nick/pokemon/battle/sim/dex.js:157:10
+      2   50.0%      Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      2  100.0%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      2  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      2  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   25.0%      Function: ~getTemplate /home/nick/pokemon/battle/sim/dex.js:319:13
+      1  100.0%        Function: ~Pokemon /home/nick/pokemon/battle/sim/pokemon.js:12:13
+      1  100.0%          Function: ~Side /home/nick/pokemon/battle/sim/side.js:44:13
+      1  100.0%            Function: ~join /home/nick/pokemon/battle/sim/battle.js:2648:6
+      1   25.0%      Function: ~getItem /home/nick/pokemon/battle/sim/dex.js:552:9
+      1  100.0%        Function: ~getItem /home/nick/pokemon/battle/sim/pokemon.js:1044:9
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      3    5.8%    Function: ~getFormat /home/nick/pokemon/battle/sim/dex.js:466:11
+      3  100.0%      Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1   33.3%        LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1   33.3%        Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%          Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1   33.3%        Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      2    3.8%    Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      2  100.0%      Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      2  100.0%        Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      2  100.0%          Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      2  100.0%            Function: ~checkDecisions /home/nick/pokemon/battle/sim/battle.js:2579:16
+      1    1.9%    LazyCompile: *getStatus /home/nick/pokemon/battle/sim/pokemon.js:947:11
+      1  100.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%          Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%            Function: ~getLockedMove /home/nick/pokemon/battle/sim/pokemon.js:456:15
+      1    1.9%    LazyCompile: *getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%      Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%        Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1  100.0%          Function: ~eachEvent /home/nick/pokemon/battle/sim/battle.js:371:11
+      1  100.0%            Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1    1.9%    Function: ~useMove /home/nick/pokemon/battle/data/scripts.js:103:20
+      1  100.0%      Function: ~runMove /home/nick/pokemon/battle/data/scripts.js:18:20
+      1  100.0%        Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1  100.0%          Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1    1.9%    Function: ~resolveTarget /home/nick/pokemon/battle/sim/battle.js:1963:15
+      1  100.0%      Function: ~resolvePriority /home/nick/pokemon/battle/sim/battle.js:2066:17
+      1  100.0%        Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1  100.0%          Function: ~addQueue /home/nick/pokemon/battle/sim/battle.js:2140:10
+      1  100.0%            Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1    1.9%    Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%      Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%        Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1  100.0%          Function: ~checkDecisions /home/nick/pokemon/battle/sim/battle.js:2579:16
+      1  100.0%            Function: ~choose /home/nick/pokemon/battle/sim/battle.js:2527:8
+      1    1.9%    Function: ~getFormat /home/nick/pokemon/battle/sim/battle.js:237:11
+      1  100.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1    1.9%    Function: ~getAbility /home/nick/pokemon/battle/sim/pokemon.js:1081:12
+      1  100.0%      Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%        Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%          Function: ~getRelevantEffects /home/nick/pokemon/battle/sim/battle.js:727:20
+      1  100.0%            Function: ~runEvent /home/nick/pokemon/battle/sim/battle.js:574:10
+      1    1.9%    Function: ~fs.readFileSync fs.js:548:27
+      1  100.0%      Function: ~Module._extensions..js module.js:644:37
+      1  100.0%        Function: ~Module.load module.js:545:33
+      1  100.0%          Function: ~tryModuleLoad module.js:494:23
+      1  100.0%            Function: ~Module._load module.js:440:24
+      1    1.9%    Function: ~fs.openSync fs.js:642:23
+      1  100.0%      Function: ~fs.readFileSync fs.js:548:27
+      1  100.0%        Function: ~Module._extensions..js module.js:644:37
+      1  100.0%          Function: ~Module.load module.js:545:33
+      1  100.0%            Function: ~tryModuleLoad module.js:494:23
+      1    1.9%    Function: ~add /home/nick/pokemon/battle/sim/battle.js:2596:5
+      1  100.0%      Function: ~runDecision /home/nick/pokemon/battle/sim/battle.js:2231:13
+      1  100.0%        Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1  100.0%          Function: ~commitDecisions /home/nick/pokemon/battle/sim/battle.js:2538:17
+      1  100.0%            Function: ~checkDecisions /home/nick/pokemon/battle/sim/battle.js:2579:16
+      1    1.9%    Function: ~GetHash native collection.js:85:17
+      1  100.0%      Function: ~delete native collection.js:187:7
+      1  100.0%        Function: ~getRuleTable /home/nick/pokemon/battle/sim/dex.js:716:14
+      1  100.0%          Function: ~nextTurn /home/nick/pokemon/battle/sim/battle.js:1197:10
+      1  100.0%            Function: ~go /home/nick/pokemon/battle/sim/battle.js:2483:4
+      1    1.9%    Function: ~Format /home/nick/pokemon/battle/sim/dex-data.js:177:13
+      1  100.0%      Function: ~getEffect /home/nick/pokemon/battle/sim/dex.js:433:11
+      1  100.0%        Function: ~getPseudoWeather /home/nick/pokemon/battle/sim/battle.js:263:18
+      1  100.0%          Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+      1  100.0%            Function: ~getRelevantEffectsInner /home/nick/pokemon/battle/sim/battle.js:732:25
+

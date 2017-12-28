@@ -860,7 +860,7 @@
 	"770-0": "Palossand",
 	"771-0": "Pyukumuku",
 	"772-0": "Type: Null",
-	"773-0": "Silvally-Normal",
+	"773-0": "Silvally",
 	"774-0": "Minior",
 	"775-0": "Komala",
 	"776-0": "Turtonator",
@@ -947,3 +947,4 @@
 	"531-1": "Audino-Mega", 
 	"719-1": "Diancie-Mega"
 }
+module.exports = dict;

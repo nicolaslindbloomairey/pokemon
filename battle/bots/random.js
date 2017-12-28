@@ -1,8 +1,8 @@
 const Ai = require('./../ai');
 
 class Randumb extends Ai {
-    constructor(name, side, team) {
-        super(name, side, team);
+    constructor(name, side) {
+        super(name, side);
     }
     decide(state) {
         if (state[this.side].currentRequest === 'teampreview') {

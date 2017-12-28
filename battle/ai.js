@@ -1,13 +1,11 @@
-const Validator = require('./team-validator');
-const TV = new Validator('vgc2018');
 
 class Ai {
-    constructor(name, side, team) {
+    constructor(name, side) {
         this.name = name;
-        this.team = team;
+        //this.team = team;
         this.side = side;
         
-        console.log('Team Errors: ' + TV.validateTeam(this.team));
+        //console.log('Team Errors: ' + TV.validateTeam(this.team));
 
 
         this.wins = 0;

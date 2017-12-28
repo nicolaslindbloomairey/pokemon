@@ -116,12 +116,12 @@ const generate = function() {
 			});
 		}	
 		const evs = {
-			"HP": (4*(divs[0]-0)> 252) ? 252 : 4*(divs[0]-0),
-			"ATK": (4*(divs[1]-divs[0])> 252) ? 252 : 4*(divs[1]-divs[0]),
-			"DEF": (4*(divs[2]-divs[1])> 252) ? 252 : 4*(divs[2]-divs[1]),
-			"SPA": (4*(divs[3]-divs[2])> 252) ? 252 : 4*(divs[3]-divs[2]),
-			"SPD": (4*(divs[4]-divs[3])> 252) ? 252 : 4*(divs[4]-divs[3]),
-			"SPE": (4*(127-divs[4])> 252) ? 252 : 4*(127-divs[4]),
+			"hp": (4*(divs[0]-0)> 252) ? 252 : 4*(divs[0]-0),
+			"atk": (4*(divs[1]-divs[0])> 252) ? 252 : 4*(divs[1]-divs[0]),
+			"def": (4*(divs[2]-divs[1])> 252) ? 252 : 4*(divs[2]-divs[1]),
+			"spa": (4*(divs[3]-divs[2])> 252) ? 252 : 4*(divs[3]-divs[2]),
+			"spd": (4*(divs[4]-divs[3])> 252) ? 252 : 4*(divs[4]-divs[3]),
+			"spe": (4*(127-divs[4])> 252) ? 252 : 4*(127-divs[4]),
 		};
 		pokemon.evs = evs;
 

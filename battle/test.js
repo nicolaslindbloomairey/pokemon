@@ -4,7 +4,6 @@
 const format = 'vgc2018';
 const Sim = require('./sim');
 const Dex = require('./sim/dex');
-const Ai = require('./ai');
 const Random = require('./bots/random');
 const Helper = require('./helper');
 const fs = require('fs');
@@ -58,8 +57,8 @@ for (let i = 0; i<numBattles; i++) {
 }
 const t1 = new Date().getTime();
 
-console.log(p1.name + " won " + p2.wins + " times");
-console.log(p1.name + " won " + p2.wins + " times");
+console.log(p1.name + " won " + p1.wins + " times");
+console.log(p2.name + " won " + p2.wins + " times");
 console.log(numBattles + " battles took " + (t1-t0) + " milliseconds");
 console.log("average battle length: " + ((t1-t0)/numBattles) + " milliseconds");
 

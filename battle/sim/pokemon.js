@@ -6,7 +6,7 @@
  */
 'use strict';
 
-const Dex = require('./dex');
+//const Dex = require('./dex');
 
 class Pokemon {
 	constructor(set, side) {

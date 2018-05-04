@@ -1,4 +1,4 @@
-const Ai = require('./../ai');
+const Ai = require('./ai');
 
 class Randumb extends Ai {
     constructor(name, side) {
